@@ -8,7 +8,7 @@ const base = (process.env.APP_URL || 'https://fixmysearch-deploy.vercel.app').re
 const items = JSON.parse(fs.readFileSync(path.join(root, 'seo', 'data.json'), 'utf8')).items;
 const urlList = [`${base}/`, `${base}/p`, ...items.map((item) => `${base}/p/${item.slug}`)];
 
-const response = await fetch('https://api.indexnow.org/indexnow', {
+const response = await fetch(process.env.INDEXNOW_URL || 'https://www.bing.com/indexnow', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json; charset=utf-8' },
   body: JSON.stringify({
