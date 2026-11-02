@@ -1,0 +1,1573 @@
+{
+  "generatedAt": "2026-11-02T02:55:09.633Z",
+  "items": [
+    {
+      "query": "minha planta está amarelando e caindo as folhas",
+      "slug": "minha-planta-esta-amarelando-e-caindo-as-folhas",
+      "data": {
+        "intention": "Descobrir a causa do amarelamento e da queda das folhas e como reverter o problema na planta.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "diagnóstico de clorose foliar em plantas de interior"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "excesso de água ou deficiência de nutrientes causa folhas amarelas"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com planta folhas amarelas caindo"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como recuperar planta com folhas amarelas passo a passo"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "yellowing leaves dropping causes and fixes houseplants"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Casos reais e diagnóstico pela foto."
+          },
+          {
+            "icon": "📷",
+            "name": "Google Lens",
+            "reason": "Compare a folha com deficiências e pragas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais de rega, luz e adubação."
+          },
+          {
+            "icon": "🧪",
+            "name": "Wikipédia — clorose",
+            "reason": "Entenda as causas nutricionais."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como parar de procrastinar para estudar",
+      "slug": "como-parar-de-procrastinar-para-estudar",
+      "data": {
+        "intention": "Criar um método prático para começar e manter os estudos sem adiar.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "técnica pomodoro adaptada para estudar com foco"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "procrastinação acadêmica causas emocionais e ambientais"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com getdisciplined studying procrastination"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como estudar 25 minutos sem distração método"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to stop procrastinating when studying evidence based"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "r/GetStudying",
+            "reason": "Métodos e relatos de quem estuda."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais de foco e rotina de estudo."
+          },
+          {
+            "icon": "🧠",
+            "name": "Google Scholar",
+            "reason": "Pesquisas sobre procrastinação acadêmica."
+          },
+          {
+            "icon": "🗂️",
+            "name": "Notion",
+            "reason": "Modelos de cronograma e acompanhamento."
+          }
+        ]
+      }
+    },
+    {
+      "query": "dor nas costas ao acordar e rigidez",
+      "slug": "dor-nas-costas-ao-acordar-e-rigidez",
+      "data": {
+        "intention": "Entender por que a dor e a rigidez aparecem ao acordar e o que fazer para melhorar.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "rigidez matinal lombar diagnóstico diferencial espondilite"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "dor nas costas ao acordar colchão postura ou inflamação"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com morning back stiffness pain"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "alongamentos para dor lombar matinal"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "morning back pain and stiffness causes when to see doctor"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações gerais sobre dor lombar."
+          },
+          {
+            "icon": "🏥",
+            "name": "Mayo Clinic",
+            "reason": "Sinais de alerta e causas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube — fisioterapia",
+            "reason": "Alongamentos demonstrados passo a passo."
+          },
+          {
+            "icon": "💬",
+            "name": "r/backpain",
+            "reason": "Relatos e perguntas de outros pacientes."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como aprender programação do zero sozinho",
+      "slug": "como-aprender-programacao-do-zero-sozinho",
+      "data": {
+        "intention": "Montar um caminho de aprendizado de programação para iniciantes, sem curso pago e sem experiência.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "roadmap programação para iniciantes lógica de programação"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que iniciantes desistem de aprender a programar"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com learn programming from scratch self taught"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "aprender programação com projetos práticos Python"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "self taught programming roadmap for beginners 2026"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🆓",
+            "name": "freeCodeCamp",
+            "reason": "Currículo gratuito com projetos guiados."
+          },
+          {
+            "icon": "🧭",
+            "name": "The Odin Project",
+            "reason": "Trilha completa de desenvolvimento web."
+          },
+          {
+            "icon": "💬",
+            "name": "r/learnprogramming",
+            "reason": "Dúvidas e trilhas para iniciantes."
+          },
+          {
+            "icon": "🎥",
+            "name": "Curso em Vídeo",
+            "reason": "Aulas de lógica e Python em português."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como emagrecer rápido sem dieta e sem academia",
+      "slug": "como-emagrecer-rapido-sem-dieta-e-sem-academia",
+      "data": {
+        "intention": "Encontrar mudanças sustentáveis de alimentação e rotina para perder peso sem dietas restritivas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "déficit calórico sem dieta restritiva para perda de peso"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que dietas restritivas causam efeito rebote"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com lose weight without dieting"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "hábitos para emagrecer sem academia caminhada"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to lose weight without strict diet evidence based"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais sobre alimentação saudável."
+          },
+          {
+            "icon": "💬",
+            "name": "r/loseit",
+            "reason": "Relatos e estratégias de perda de peso."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Rotinas de caminhada e hábitos acessíveis."
+          },
+          {
+            "icon": "📊",
+            "name": "OMS",
+            "reason": "Recomendações de atividade física."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como tirar mancha de roupa branca encardida",
+      "slug": "como-tirar-mancha-de-roupa-branca-encardida",
+      "data": {
+        "intention": "Recuperar o branco de roupas encardidas sem danificar o tecido.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "remoção de manchas amareladas em tecido branco alvejante"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que roupa branca fica encardida mesmo lavando"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com how to whiten yellowed white clothes"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "tirar encardido com bicarbonato e vinagre"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to remove yellow stains from white clothes"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧺",
+            "name": "r/CleaningTips",
+            "reason": "Receitas e testes de remoção de manchas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais de lavanderia passo a passo."
+          },
+          {
+            "icon": "🧼",
+            "name": "Fabricantes de alvejante",
+            "reason": "Instruções e diluições seguras."
+          },
+          {
+            "icon": "📖",
+            "name": "Wikipédia — alvejante",
+            "reason": "Entenda os tipos e os riscos ao tecido."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como economizar dinheiro todo mês ganhando pouco",
+      "slug": "como-economizar-dinheiro-todo-mes-ganhando-pouco",
+      "data": {
+        "intention": "Criar um orçamento realista e cortar gastos para sobrar dinheiro mesmo com renda baixa.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "orçamento 50 30 20 para renda baixa"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que o dinheiro acaba antes do fim do mês"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com frugal living low income budget"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "desafio de economia semanal para ganhar pouco"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to save money on a low income budget"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💬",
+            "name": "r/personalfinance",
+            "reason": "Orçamentos e metas com renda apertada."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube — finanças",
+            "reason": "Métodos de economia explicados na prática."
+          },
+          {
+            "icon": "🏦",
+            "name": "Banco Central",
+            "reason": "Calculadora do cidadão e educação financeira."
+          },
+          {
+            "icon": "📱",
+            "name": "Planilhas de orçamento",
+            "reason": "Modelos prontos para controlar gastos."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como estudar para concurso trabalhando",
+      "slug": "como-estudar-para-concurso-trabalhando",
+      "data": {
+        "intention": "Organizar uma rotina de estudos para concurso conciliando trabalho e pouco tempo livre.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "cronograma de estudos para concurso quem trabalha"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como manter consistência nos estudos trabalhando 8 horas"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com studying for exams while working full time"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "estudar para concurso em 1 hora por dia"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to study for exam while working full time"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💬",
+            "name": "r/concursospublicos",
+            "reason": "Rotinas e editais comentados."
+          },
+          {
+            "icon": "📰",
+            "name": "Estratégia Concursos",
+            "reason": "Artigos e cronogramas para concurseiros."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas e métodos para pouco tempo."
+          },
+          {
+            "icon": "🗂️",
+            "name": "Notion",
+            "reason": "Modelos de ciclo de estudos."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a bateria do celular que descarrega rápido",
+      "slug": "como-melhorar-a-bateria-do-celular-que-descarrega-rapido",
+      "data": {
+        "intention": "Identificar o que está drenando a bateria e adotar ajustes para durar mais.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "consumo de bateria Android diagnóstico de wakelocks"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que a bateria do celular descarrega rápido em standby"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com android battery draining fast fix"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "configurações para economizar bateria no celular"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "phone battery draining fast how to fix"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💬",
+            "name": "r/AndroidQuestions",
+            "reason": "Diagnóstico por modelo e versão."
+          },
+          {
+            "icon": "📰",
+            "name": "Android Central",
+            "reason": "Guias de bateria e apps."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais de configuração por aparelho."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Suporte Google/Apple",
+            "reason": "Passos oficiais de economia de energia."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como acabar com a insônia naturalmente",
+      "slug": "como-acabar-com-a-insonia-naturalmente",
+      "data": {
+        "intention": "Encontrar hábitos e técnicas para dormir melhor sem depender de remédios.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "higiene do sono protocolo para insônia"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "por que acordo cansado e não consigo dormir"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com insomnia help without medication"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "técnicas de respiração e relaxamento para dormir"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to cure insomnia naturally sleep hygiene"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas que ajudaram."
+          },
+          {
+            "icon": "🏥",
+            "name": "Mayo Clinic",
+            "reason": "Higiene do sono e sinais de alerta."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Meditações e exercícios de respiração."
+          },
+          {
+            "icon": "🩺",
+            "name": "Associação Brasileira do Sono",
+            "reason": "Orientações baseadas em evidências."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como limpar sofá de tecido em casa",
+      "slug": "como-limpar-sofa-de-tecido-em-casa",
+      "data": {
+        "intention": "Saber o passo a passo seguro para remover manchas e odores do sofá de tecido sem danificar o estofado.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "limpeza de sofá de tecido com extratora e produtos neutros"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "mancha no sofá de tecido pode ser gordura, tinta ou urina de pet"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com limpar sofá de tecido mancha"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como limpar sofá de tecido com bicarbonato e vinagre"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to clean a fabric sofa at home stains and odor"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🛋️",
+            "name": "r/CleaningTips",
+            "reason": "Métodos testados por outras pessoas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais de extração e secagem."
+          },
+          {
+            "icon": "🧴",
+            "name": "Fabricante",
+            "reason": "Manual do tecido e produtos recomendados."
+          },
+          {
+            "icon": "📷",
+            "name": "Google Lens",
+            "reason": "Identifique o tipo de mancha."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como tirar mau cheiro da geladeira",
+      "slug": "como-tirar-mau-cheiro-da-geladeira",
+      "data": {
+        "intention": "Eliminar o odor da geladeira, descobrir a origem e evitar que ele volte.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "higienização da geladeira e troca do filtro de carvão"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "mau cheiro na geladeira pode ser dreno entupido ou alimento estragado"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com refrigerator smells bad how to fix"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como tirar cheiro de geladeira com bicarbonato e vinagre"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to get rid of fridge smell permanently"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧊",
+            "name": "r/appliancerepair",
+            "reason": "Diagnóstico de dreno e vedação."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Limpeza passo a passo."
+          },
+          {
+            "icon": "🏠",
+            "name": "Fabricante",
+            "reason": "Manual e filtros do modelo."
+          },
+          {
+            "icon": "🛒",
+            "name": "Amazon",
+            "reason": "Filtros e potes absorventes."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como eliminar formigas da cozinha",
+      "slug": "como-eliminar-formigas-da-cozinha",
+      "data": {
+        "intention": "Acabar com a infestação de formigas na cozinha sem prejudicar crianças e pets.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "controle de formigas com isca granulada e gel"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "formigas aparecem por trilha de alimento e umidade"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com how to get rid of ants in kitchen"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como eliminar formigas com vinagre e bicarbonato"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to get rid of kitchen ants naturally"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🐜",
+            "name": "r/pestcontrol",
+            "reason": "Identificação da espécie e iscas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aplicação segura de gel."
+          },
+          {
+            "icon": "🏠",
+            "name": "Fabricante",
+            "reason": "Instruções da isca."
+          },
+          {
+            "icon": "🧑‍🌾",
+            "name": "Embrapa",
+            "reason": "Controle de formigas domésticas."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como limpar prata escurecida em casa",
+      "slug": "como-limpar-prata-escurecida-em-casa",
+      "data": {
+        "intention": "Recuperar o brilho de joias e talheres de prata sem danificar a peça.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "limpeza de prata com pasta de bicarbonato e papel alumínio"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "prata escurece por oxidação com enxofre do ar"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com how to clean tarnished silver"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como limpar prata com pasta de dente"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to clean tarnished silver jewelry at home"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💍",
+            "name": "r/jewelry",
+            "reason": "Cuidados com pedras e banhos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Métodos caseiros e profissional."
+          },
+          {
+            "icon": "🏛️",
+            "name": "Museu",
+            "reason": "Conservação de metais."
+          },
+          {
+            "icon": "🛒",
+            "name": "Ourivesaria",
+            "reason": "Panos e produtos específicos."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como tirar ferrugem de roupa branca",
+      "slug": "como-tirar-ferrugem-de-roupa-branca",
+      "data": {
+        "intention": "Remover manchas de ferrugem da roupa branca sem amarelar o tecido.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "remoção de óxido de ferro em tecido com ácido cítrico"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "mancha de ferrugem vem de zíper, prego ou água com ferro"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com rust stain white clothes removal"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como tirar ferrugem de roupa com limão e sal"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to remove rust stains from white clothes"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧺",
+            "name": "r/laundry",
+            "reason": "Tecidos e produtos seguros."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Testes caseiros."
+          },
+          {
+            "icon": "🧴",
+            "name": "Fabricante",
+            "reason": "Instruções da lavanderia."
+          },
+          {
+            "icon": "🏠",
+            "name": "Casa",
+            "reason": "Prevenção na máquina."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como tirar cheiro de mofo de roupa",
+      "slug": "como-tirar-cheiro-de-mofo-de-roupa",
+      "data": {
+        "intention": "Eliminar o cheiro de mofo das roupas e evitar que ele volte no armário.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "tratamento de roupa com odor de mofo e fungos"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "mofo em roupa surge de umidade e secagem lenta"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com musty smell clothes how to remove"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como tirar cheiro de mofo de roupa com vinagre"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to remove musty smell from clothes"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "👕",
+            "name": "r/laundry",
+            "reason": "Casos e soluções."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Lavagem e secagem."
+          },
+          {
+            "icon": "🧴",
+            "name": "Fabricante",
+            "reason": "Cuidados com o tecido."
+          },
+          {
+            "icon": "🌬️",
+            "name": "Desumidificador",
+            "reason": "Controle de umidade."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como fazer currículo sem experiência",
+      "slug": "como-fazer-curriculo-sem-experiencia",
+      "data": {
+        "intention": "Montar um currículo convincente para a primeira vaga, destacando habilidades e projetos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "currículo primeiro emprego sem experiência modelo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "falta de experiência pode ser compensada com projetos e habilidades"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com currículo sem experiência primeiro emprego"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como fazer currículo para jovem aprendiz"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "resume with no experience first job"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Exemplos de perfis e vagas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Modelos comentados."
+          },
+          {
+            "icon": "🏫",
+            "name": "Sebrae",
+            "reason": "Cursos e orientação gratuita."
+          },
+          {
+            "icon": "📄",
+            "name": "Canva",
+            "reason": "Modelos editáveis."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como se sair bem em entrevista de emprego sem experiência",
+      "slug": "como-se-sair-bem-em-entrevista-de-emprego-sem-experiencia",
+      "data": {
+        "intention": "Preparar respostas e postura para uma entrevista de primeira vaga sem experiência.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "entrevista comportamental primeiro emprego método STAR"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "nervosismo e falta de exemplos práticos atrapalham a entrevista"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com first job interview no experience"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como responder fale sobre você sem experiência"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "first job interview tips no experience"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Perguntas e respostas comuns."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Simulações de entrevista."
+          },
+          {
+            "icon": "🏫",
+            "name": "Sebrae",
+            "reason": "Preparação para o mercado."
+          },
+          {
+            "icon": "📚",
+            "name": "Glassdoor",
+            "reason": "Relatos de entrevistas."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como aprender inglês sozinho em casa",
+      "slug": "como-aprender-ingles-sozinho-em-casa",
+      "data": {
+        "intention": "Criar uma rotina autodidata de inglês com metas, recursos gratuitos e prática diária.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "plano de estudos de inglês autodidata com input compreensível"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "falta de constância e de prática oral travam o aprendizado"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com learn English alone at home routine"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como aprender inglês com séries e músicas"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to learn English by yourself at home"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🗣️",
+            "name": "r/EnglishLearning",
+            "reason": "Dúvidas e correções."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas e imersão."
+          },
+          {
+            "icon": "📱",
+            "name": "Anki",
+            "reason": "Vocabulário com repetição espaçada."
+          },
+          {
+            "icon": "🎧",
+            "name": "BBC Learning English",
+            "reason": "Conteúdo gratuito por nível."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a memória para estudar",
+      "slug": "como-melhorar-a-memoria-para-estudar",
+      "data": {
+        "intention": "Estudar com técnicas que aumentam a retenção e reduzem o esquecimento.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "repetição espaçada e recuperação ativa para estudar"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "esquecimento vem de leitura passiva e falta de revisão"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com how to remember what you study"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como estudar usando flashcards e mapas mentais"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "spaced repetition active recall study techniques"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧠",
+            "name": "r/GetStudying",
+            "reason": "Métodos e rotinas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Técnicas explicadas."
+          },
+          {
+            "icon": "📱",
+            "name": "Anki",
+            "reason": "Flashcards."
+          },
+          {
+            "icon": "📚",
+            "name": "Coursera",
+            "reason": "Curso Aprendendo a Aprender."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como organizar a rotina de estudos",
+      "slug": "como-organizar-a-rotina-de-estudos",
+      "data": {
+        "intention": "Montar uma rotina de estudos realista que caiba na semana e seja sustentável.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "planejamento de estudos com blocos de tempo e metas semanais"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "rotina falha por metas irreais e falta de priorização"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com study schedule that actually works"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como organizar estudos com método pomodoro"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to build a study routine that works"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📅",
+            "name": "r/GetStudying",
+            "reason": "Rotinas reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Planners e métodos."
+          },
+          {
+            "icon": "📱",
+            "name": "Notion",
+            "reason": "Templates de estudo."
+          },
+          {
+            "icon": "📚",
+            "name": "Coursera",
+            "reason": "Gestão de tempo."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como aliviar a ansiedade antes da prova",
+      "slug": "como-aliviar-a-ansiedade-antes-da-prova",
+      "data": {
+        "intention": "Reduzir a ansiedade antes e durante a prova com estratégias práticas de respiração e preparação.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "ansiedade pré-prova técnicas de regulação emocional"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "medo de errar e falta de simulação aumentam a ansiedade"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com test anxiety tips"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como controlar ansiedade na hora da prova"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to calm test anxiety before an exam"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧘",
+            "name": "r/Anxiety",
+            "reason": "Relatos e técnicas."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Respiração e mindfulness."
+          },
+          {
+            "icon": "🏥",
+            "name": "CVV",
+            "reason": "Apoio emocional gratuito."
+          },
+          {
+            "icon": "📚",
+            "name": "Psicologia",
+            "reason": "Conteúdo baseado em evidências."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como escolher um notebook para estudar",
+      "slug": "como-escolher-um-notebook-para-estudar",
+      "data": {
+        "intention": "Escolher um notebook com bom custo-benefício para estudar, considerando bateria, tela e desempenho.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "notebook para estudos comparação de processador RAM e SSD"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "notebook lento para estudar vem de pouca RAM ou HD antigo"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com notebook for college students budget"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "melhor notebook custo-benefício para estudar 2026"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "best budget laptop for students"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💻",
+            "name": "r/laptops",
+            "reason": "Recomendações por orçamento."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Reviews e testes."
+          },
+          {
+            "icon": "📊",
+            "name": "Notebookcheck",
+            "reason": "Benchmarks e telas."
+          },
+          {
+            "icon": "🛒",
+            "name": "Zoom",
+            "reason": "Comparador de preços."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a postura no trabalho",
+      "slug": "como-melhorar-a-postura-no-trabalho",
+      "data": {
+        "intention": "Corrigir a postura no home office e aliviar tensões no pescoço e nas costas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "ergonomia do home office e ajuste de mesa e cadeira"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "dor postural vem de monitor baixo e longas horas sentado"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com posture at desk home office"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "exercícios para melhorar postura no trabalho"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to fix posture at desk"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🪑",
+            "name": "r/Ergonomics",
+            "reason": "Ajustes de mesa e cadeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Alongamentos e ergonomia."
+          },
+          {
+            "icon": "🏥",
+            "name": "Fisioterapia",
+            "reason": "Orientações profissionais."
+          },
+          {
+            "icon": "🏠",
+            "name": "Fabricante",
+            "reason": "Manual da cadeira."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como começar a correr sem se machucar",
+      "slug": "como-comecar-a-correr-sem-se-machucar",
+      "data": {
+        "intention": "Iniciar na corrida com progressão segura, aquecimento e prevenção de lesões.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "plano de iniciação à corrida com progressão de volume"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "lesões na corrida vêm de aumento brusco de volume e tênis inadequado"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com beginner running plan injury prevention"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como começar a correr do zero caminhada e corrida"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "couch to 5k beginner running plan"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🏃",
+            "name": "r/running",
+            "reason": "Planos e relatos de iniciantes."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Técnica e aquecimento."
+          },
+          {
+            "icon": "🏥",
+            "name": "Ortopedista",
+            "reason": "Avaliação se houver dor."
+          },
+          {
+            "icon": "📱",
+            "name": "Couch to 5K",
+            "reason": "Plano guiado."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como cuidar de suculentas em apartamento",
+      "slug": "como-cuidar-de-suculentas-em-apartamento",
+      "data": {
+        "intention": "Manter suculentas saudáveis em apartamento, com luz, rega e substrato adequados.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "cultivo de suculentas em vaso com substrato drenável"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "suculenta morre por excesso de água e pouca luz"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com succulent care apartment"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como regar suculentas sem matar a planta"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to care for succulents indoors"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌵",
+            "name": "r/succulents",
+            "reason": "Diagnóstico por foto."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Rega e substrato."
+          },
+          {
+            "icon": "🌱",
+            "name": "Fabricante",
+            "reason": "Substrato e adubo."
+          },
+          {
+            "icon": "📷",
+            "name": "Google Lens",
+            "reason": "Identifique a espécie."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como economizar energia elétrica em casa",
+      "slug": "como-economizar-energia-eletrica-em-casa",
+      "data": {
+        "intention": "Reduzir a conta de luz com mudanças de hábito e escolhas de equipamentos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "consumo de energia elétrica em casa e aparelhos que mais gastam"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "conta de luz alta vem de chuveiro, ar-condicionado e geladeira antiga"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com reduce electricity bill home"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como economizar energia com hábitos simples"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to lower electricity bill at home"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💡",
+            "name": "r/Electricity",
+            "reason": "Consumo e aparelhos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Medições e dicas."
+          },
+          {
+            "icon": "⚡",
+            "name": "ANEEL",
+            "reason": "Bandeiras tarifárias."
+          },
+          {
+            "icon": "🏠",
+            "name": "Fabricante",
+            "reason": "Consumo do equipamento."
+          }
+        ]
+      }
+    },
+    {
+      "query": "como se preparar para o Enem em pouco tempo",
+      "slug": "como-se-preparar-para-o-enem-em-pouco-tempo",
+      "data": {
+        "intention": "Montar um plano de estudo eficiente para o Enem quando falta pouco tempo.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "plano de estudos Enem reta final por competências"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "falta de tempo no Enem exige priorizar conteúdos de maior incidência"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com Enem reta final como estudar"
+          },
+          {
+            "typeKey": "alternativa",
+            "typeLabel": "Alternativa",
+            "query": "como estudar para o Enem em 30 dias"
+          },
+          {
+            "typeKey": "ingles",
+            "typeLabel": "Em inglês",
+            "query": "how to prepare for a college entrance exam in one month"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "r/enem",
+            "reason": "Dúvidas e materiais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas de revisão."
+          },
+          {
+            "icon": "📝",
+            "name": "INEP",
+            "reason": "Provas anteriores e edital."
+          },
+          {
+            "icon": "📱",
+            "name": "Descomplica",
+            "reason": "Revisão e simulados."
+          }
+        ]
+      }
+    }
+  ]
+}

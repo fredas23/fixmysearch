@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FixMySearch — Sua busca, reformulada</title>
+<meta name="description" content="Cole sua busca do Google e receba 5 versões melhores, a intenção real e onde buscar além do Google.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg:#0F1923;--surface:#162232;--border:#1E3347;
+    --accent:#4A9EFF;--accent-dim:rgba(74,158,255,0.12);
+    --text:#E8F4FD;--muted:#7A9BB5;
+    --danger:#FF6B6B;--success:#4AE3A0;--tag-bg:#1A2E42;
+    --gold:#FFB432;--gold-dim:rgba(255,180,50,0.12);
+    color-scheme:dark;
+  }
+  @media(prefers-color-scheme:light){
+    :root:not([data-theme="dark"]){
+      --bg:#F0F6FF;--surface:#FFFFFF;--border:#C8DCF0;
+      --accent:#1A6FD4;--accent-dim:rgba(26,111,212,0.10);
+      --text:#0A1929;--muted:#4A6B8A;--tag-bg:#DCE9F8;
+      --gold:#B07800;--gold-dim:rgba(176,120,0,0.10);
+    }
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html,body{height:100%;font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);}
+  body{display:flex;flex-direction:column;min-height:100%;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0);}
+
+  header{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg);z-index:10;}
+  .logo{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:700;letter-spacing:-0.02em;}
+  .logo span{color:var(--accent);}
+  .header-right{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:12px;}
+  .usage-pill{font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;border:1px solid var(--border);color:var(--muted);background:var(--surface);}
+  .usage-pill.ok{border-color:var(--success);color:var(--success);background:rgba(74,227,160,0.08);}
+  .usage-pill.low{border-color:var(--gold);color:var(--gold);background:var(--gold-dim);}
+  .usage-pill.empty{border-color:var(--danger);color:var(--danger);background:rgba(255,107,107,0.08);}
+  .btn-pro-sm{font-size:0.75rem;font-weight:600;font-family:'Space Grotesk',sans-serif;background:linear-gradient(135deg,#FFB432,#FF7A00);color:#0A1929;border:none;border-radius:20px;padding:5px 14px;cursor:pointer;}
+  .btn-pro-sm:hover{opacity:0.88;}
+  .btn-ghost-sm{font-size:0.75rem;font-weight:600;font-family:'Space Grotesk',sans-serif;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:20px;padding:5px 12px;cursor:pointer;}
+  .btn-ghost-sm:hover{border-color:var(--accent);color:var(--accent);}
+
+  .hero{display:flex;flex-direction:column;align-items:center;padding:48px 24px 24px;text-align:center;max-width:720px;margin:0 auto;width:100%;}
+  .hero-eyebrow{font-size:0.77rem;color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:4px 14px;margin-bottom:20px;}
+  h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.65rem,5vw,2.6rem);font-weight:700;line-height:1.15;letter-spacing:-0.03em;margin-bottom:12px;}
+  h1 em{font-style:normal;color:var(--accent);}
+  .hero-sub{font-size:0.95rem;color:var(--muted);line-height:1.65;max-width:450px;}
+
+  .search-wrap{width:100%;max-width:680px;margin:28px auto 0;padding:0 24px;}
+  .search-area{background:var(--surface);border:1.5px solid var(--border);border-radius:14px;overflow:hidden;transition:border-color 0.2s;}
+  .search-area:focus-within{border-color:var(--accent);}
+  textarea{width:100%;background:transparent;border:none;outline:none;resize:none;color:var(--text);font-family:'Inter',sans-serif;font-size:1rem;padding:16px 20px 0;min-height:76px;line-height:1.6;caret-color:var(--accent);}
+  textarea::placeholder{color:var(--muted);}
+  .search-footer{display:flex;align-items:center;justify-content:space-between;padding:8px 14px 13px;}
+  .char-count{font-size:0.73rem;color:var(--muted);}
+  .btn-fix{display:flex;align-items:center;gap:7px;background:var(--accent);color:#fff;border:none;cursor:pointer;font-family:'Space Grotesk',sans-serif;font-size:0.88rem;font-weight:600;padding:9px 20px;border-radius:9px;transition:opacity 0.15s,transform 0.1s;}
+  .btn-fix:hover:not(:disabled){opacity:0.85;transform:translateY(-1px);}
+  .btn-fix:active{transform:translateY(0);}
+  .btn-fix:disabled{opacity:0.38;cursor:not-allowed;}
+
+  .mode-tabs{display:flex;justify-content:center;gap:8px;margin:24px auto 0;padding:0 24px;}
+  .mode-tab{font-family:'Space Grotesk',sans-serif;font-size:0.78rem;font-weight:600;color:var(--muted);background:var(--tag-bg);border:1px solid var(--border);border-radius:20px;padding:6px 16px;cursor:pointer;}
+  .mode-tab.active{color:var(--accent);border-color:var(--accent);background:var(--accent-dim);}
+  .biz-fields{display:none;flex-direction:column;padding:14px 16px 2px;}
+  .examples{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:13px auto 0;max-width:680px;padding:0 24px;}
+  .ex-chip{font-size:0.77rem;color:var(--muted);background:var(--tag-bg);border:1px solid var(--border);border-radius:20px;padding:5px 12px;cursor:pointer;transition:color 0.15s,border-color 0.15s;}
+  .ex-chip:hover{color:var(--accent);border-color:var(--accent);}
+
+  .results-wrap{max-width:680px;margin:32px auto 56px;padding:0 24px;width:100%;}
+  .loading{display:flex;flex-direction:column;align-items:center;gap:14px;padding:44px 0;}
+  .pulse-ring{width:42px;height:42px;border:2.5px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .loading p{color:var(--muted);font-size:0.88rem;}
+
+  .result-block{margin-bottom:26px;animation:fadeUp 0.3s ease both;}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+  .block-label{font-size:0.67rem;font-weight:600;letter-spacing:0.09em;color:var(--muted);margin-bottom:11px;display:flex;align-items:center;gap:8px;}
+  .block-label::after{content:'';flex:1;height:1px;background:var(--border);}
+
+  .intention-box{background:var(--accent-dim);border:1px solid rgba(74,158,255,0.25);border-radius:12px;padding:15px 18px;}
+  .intention-box .lbl{font-size:0.68rem;color:var(--accent);font-weight:600;margin-bottom:5px;}
+  .intention-box p{font-size:0.93rem;line-height:1.55;}
+
+  .reform-list{display:flex;flex-direction:column;gap:8px;}
+  .reform-item{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:12px 14px;display:flex;align-items:flex-start;gap:11px;cursor:pointer;transition:border-color 0.15s,background 0.15s;}
+  .reform-item:hover{border-color:var(--accent);background:var(--accent-dim);}
+  .reform-type{font-size:0.62rem;font-weight:600;white-space:nowrap;margin-top:3px;padding:3px 8px;border-radius:20px;letter-spacing:0.04em;}
+  .type-tecnica{background:rgba(74,158,255,0.15);color:#4A9EFF;}
+  .type-causa{background:rgba(74,227,160,0.15);color:#4AE3A0;}
+  .type-comunidade{background:rgba(255,180,50,0.15);color:#FFB432;}
+  .type-alternativa{background:rgba(200,100,255,0.15);color:#C864FF;}
+  .type-ingles{background:rgba(255,107,107,0.15);color:#FF6B6B;}
+  .reform-text{font-size:0.91rem;line-height:1.45;flex:1;}
+  .copy-hint{font-size:0.67rem;color:var(--muted);margin-top:2px;opacity:0;transition:opacity 0.15s;}
+  .reform-item:hover .copy-hint{opacity:1;}
+
+  .where-list{display:flex;flex-wrap:wrap;gap:8px;}
+  .where-chip{display:flex;align-items:flex-start;gap:9px;background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:9px 13px;}
+  .where-chip .icon{font-size:1.05rem;margin-top:1px;}
+  .where-chip .wname{font-size:0.84rem;font-weight:500;}
+  .where-chip .why{font-size:0.71rem;color:var(--muted);margin-top:2px;line-height:1.4;}
+  .where-inner{display:flex;flex-direction:column;}
+
+  .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.72);backdrop-filter:blur(6px);z-index:50;display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;animation:fadeIn 0.2s ease forwards;}
+  @keyframes fadeIn{to{opacity:1;}}
+  .modal{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:36px 32px;max-width:420px;width:100%;max-height:calc(100vh - 48px);overflow-y:auto;text-align:center;position:relative;animation:slideUp 0.25s ease forwards;}
+  @keyframes slideUp{from{transform:translateY(20px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+  .modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer;line-height:1;}
+  .modal-close:hover{color:var(--text);}
+  .modal-icon{font-size:2.8rem;margin-bottom:16px;}
+  .modal h2{font-family:'Space Grotesk',sans-serif;font-size:1.4rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:8px;}
+  .modal-sub{font-size:0.9rem;color:var(--muted);line-height:1.55;margin-bottom:24px;}
+  .plan-box{background:var(--gold-dim);border:1.5px solid var(--gold);border-radius:14px;padding:18px 20px;margin-bottom:20px;}
+  .plan-price{font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:700;color:var(--gold);}
+  .plan-price span{font-size:1rem;font-weight:500;color:var(--muted);}
+  .plan-features{list-style:none;margin-top:12px;display:flex;flex-direction:column;gap:7px;}
+  .plan-features li{font-size:0.86rem;display:flex;align-items:center;gap:8px;}
+  .plan-features li::before{content:'✓';color:var(--success);font-weight:700;}
+  .btn-upgrade{width:100%;padding:13px;background:linear-gradient(135deg,#FFB432,#FF7A00);color:#0A1929;font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:700;border:none;border-radius:11px;cursor:pointer;margin-bottom:10px;transition:opacity 0.15s,transform 0.1s;}
+  .btn-upgrade:hover{opacity:0.88;transform:translateY(-1px);}
+  .modal-note{font-size:0.73rem;color:var(--muted);}
+  .auth-input{width:100%;padding:12px 14px;border-radius:10px;border:1.5px solid var(--border);background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:0.9rem;outline:none;margin-bottom:10px;}
+  .auth-input:focus{border-color:var(--accent);}
+  .history-item{background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:12px 14px;cursor:pointer;margin-bottom:8px;}
+  .history-item:hover{border-color:var(--accent);}
+  .history-query{font-size:0.88rem;font-weight:500;}
+  .history-meta{font-size:0.72rem;color:var(--muted);margin-top:4px;}
+
+  .upgrade-banner{background:var(--gold-dim);border:1.5px solid var(--gold);border-radius:14px;padding:20px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px;}
+  .upgrade-banner-left h3{font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:4px;}
+  .upgrade-banner-left p{font-size:0.83rem;color:var(--muted);line-height:1.45;}
+  .btn-upgrade-sm{background:linear-gradient(135deg,#FFB432,#FF7A00);color:#0A1929;font-family:'Space Grotesk',sans-serif;font-size:0.88rem;font-weight:700;border:none;border-radius:9px;padding:10px 20px;cursor:pointer;white-space:nowrap;}
+
+  .toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--success);color:#0A1929;font-weight:600;font-size:0.84rem;padding:9px 20px;border-radius:30px;z-index:99;transition:transform 0.25s cubic-bezier(0.175,0.885,0.32,1.275);white-space:nowrap;}
+  .toast.show{transform:translateX(-50%) translateY(0);}
+  .error-box{background:rgba(255,107,107,0.08);border:1px solid rgba(255,107,107,0.3);border-radius:11px;padding:15px 18px;color:var(--danger);font-size:0.88rem;line-height:1.55;}
+
+  footer{margin-top:auto;text-align:center;padding:16px;font-size:0.72rem;color:var(--muted);border-top:1px solid var(--border);}
+
+  @media(max-width:480px){
+    header{padding:12px 16px;}
+    .hero{padding:28px 16px 16px;}
+    .search-wrap,.examples,.results-wrap{padding:0 16px;}
+    .modal{padding:28px 20px;}
+    .upgrade-banner{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Fix<span>My</span>Search</div>
+  <div class="header-right">
+    <button class="btn-ghost-sm" id="historyBtn" style="display:none" onclick="showHistory()">Histórico</button>
+    <div class="usage-pill" id="usagePill">— / 5</div>
+    <button class="btn-pro-sm" id="proBtn" onclick="showModal()">✦ Seja Pro</button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-eyebrow">Você está buscando errado — e tudo bem.</div>
+  <h1>Sua busca do Google,<br><em>reformulada.</em></h1>
+  <p class="hero-sub">Cole a busca que não deu resultado. Receba 5 versões melhores, a intenção real e onde buscar além do Google.</p>
+</div>
+
+<div class="mode-tabs" style="display:none">
+  <button class="mode-tab active" id="tabConsumer" onclick="setMode('consumer')">🔍 Busca pessoal</button>
+  <button class="mode-tab" id="tabBusiness" onclick="setMode('business')">🏪 Meu negócio</button>
+</div>
+
+<div class="search-wrap">
+  <div class="search-area">
+    <div id="consumerFields">
+      <textarea id="queryInput" placeholder="Ex: como parar de procrastinar de vez, minha planta amarelando, dor nas costas ao acordar..." maxlength="400" rows="3"></textarea>
+    </div>
+    <div class="biz-fields" id="bizFields">
+      <input class="auth-input" id="bizName" placeholder="Nome do negócio (ex: Clínica Sorriso)" maxlength="80">
+      <input class="auth-input" id="bizNiche" placeholder="Nicho (ex: dentista, advogado trabalhista)" maxlength="80">
+      <input class="auth-input" id="bizCity" placeholder="Cidade (ex: Curitiba)" maxlength="80">
+    </div>
+    <div class="search-footer">
+      <span class="char-count" id="charCount">0 / 400</span>
+      <button class="btn-fix" id="fixBtn" onclick="fixSearch()" disabled>✦ Reformular busca</button>
+    </div>
+  </div>
+</div>
+
+<div class="examples" id="examples">
+  <div class="ex-chip" onclick="setExample('como ganhar dinheiro rápido pela internet')">💸 ganhar dinheiro rápido</div>
+  <div class="ex-chip" onclick="setExample('minha planta com folhas amarelas o que fazer')">🪴 planta com folhas amarelas</div>
+  <div class="ex-chip" onclick="setExample('dor nas costas ao acordar todo dia')">🦴 dor nas costas ao acordar</div>
+  <div class="ex-chip" onclick="setExample('como aprender programação do zero')">💻 aprender programação</div>
+  <div class="ex-chip" onclick="setExample('como emagrecer rápido sem dieta')">🏃 emagrecer rápido</div>
+</div>
+
+<div class="results-wrap" id="resultsWrap" style="display:none"></div>
+
+<div style="flex:1"></div>
+<footer>FixMySearch · 5 buscas grátis por dia · <a href="/p" style="color:var(--muted)">Exemplos</a> · Powered by IA</footer>
+<div class="toast" id="toast"></div>
+
+<div class="modal-overlay" id="modalOverlay" style="display:none" onclick="handleOverlayClick(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="hideModal()">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script>
+const FREE_LIMIT = 5;
+const STORAGE_KEY = 'fms_usage_v1';
+const API_URL = '/api/fix'; // Vercel Function — mesma origem, sem CORS
+
+// Preencha com os dados do seu projeto Supabase (a anon key é pública)
+const SUPABASE_URL = 'https://qgnmpsdediphwjakkurj.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_Wi5ssY-b3-LlV4yN5ZmHOA_f8RJtSK0';
+const authEnabled = !SUPABASE_URL.includes('SEU_PROJETO') && !SUPABASE_ANON_KEY.includes('SUA_ANON');
+const sb = authEnabled && window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
+
+let me = null;
+let accessToken = null;
+let historyItems = [];
+
+function getTodayKey(){ return new Date().toISOString().slice(0,10); }
+function getUsage(){
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return {date:getTodayKey(),count:0};
+    const d = JSON.parse(raw);
+    return d.date !== getTodayKey() ? {date:getTodayKey(),count:0} : d;
+  } catch { return {date:getTodayKey(),count:0}; }
+}
+function incrementUsage(){ const u=getUsage(); u.count++; try{localStorage.setItem(STORAGE_KEY,JSON.stringify(u));}catch{} return u.count; }
+function isPro(){ return me?.plan === 'pro'; }
+function getRemainingUses(){
+  if(me) return Math.max(0, me.limit - me.used);
+  return Math.max(0, FREE_LIMIT - getUsage().count);
+}
+function updateUsagePill(){
+  const pill = document.getElementById('usagePill');
+  if(isPro()){ pill.textContent='✦ Pro'; pill.className='usage-pill ok'; return; }
+  const r = getRemainingUses();
+  const total = me ? me.limit : FREE_LIMIT;
+  pill.textContent = `${r} / ${total} grátis`;
+  pill.className = 'usage-pill' + (r>=3?' ok':r>=1?' low':' empty');
+}
+function refreshAccountUI(){
+  document.getElementById('proBtn').textContent = isPro() ? '✦ Pro' : '✦ Seja Pro';
+  document.getElementById('historyBtn').style.display = isPro() ? '' : 'none';
+}
+
+const input = document.getElementById('queryInput');
+const fixBtn = document.getElementById('fixBtn');
+const resultsWrap = document.getElementById('resultsWrap');
+const toast = document.getElementById('toast');
+const bizName = document.getElementById('bizName');
+const bizNiche = document.getElementById('bizNiche');
+const bizCity = document.getElementById('bizCity');
+
+let mode = 'consumer';
+function isBizMode(){ return mode === 'business'; }
+function updateFixBtn(){
+  fixBtn.disabled = isBizMode()
+    ? !(bizName.value.trim() && bizNiche.value.trim() && bizCity.value.trim())
+    : input.value.length < 5;
+}
+function setMode(m){
+  mode = m;
+  const biz = m === 'business';
+  document.getElementById('tabConsumer').classList.toggle('active', !biz);
+  document.getElementById('tabBusiness').classList.toggle('active', biz);
+  document.getElementById('consumerFields').style.display = biz ? 'none' : '';
+  document.getElementById('bizFields').style.display = biz ? 'flex' : 'none';
+  document.getElementById('examples').style.display = biz ? 'none' : '';
+  document.getElementById('charCount').style.display = biz ? 'none' : '';
+  fixBtn.textContent = biz ? '✦ Analisar negócio' : '✦ Reformular busca';
+  updateFixBtn();
+}
+input.addEventListener('input', ()=>{
+  document.getElementById('charCount').textContent = `${input.value.length} / 400`;
+  updateFixBtn();
+});
+input.addEventListener('keydown', e=>{ if((e.ctrlKey||e.metaKey)&&e.key==='Enter') fixSearch(); });
+[bizName,bizNiche,bizCity].forEach(el=>{
+  el.addEventListener('input', updateFixBtn);
+  el.addEventListener('keydown', e=>{ if(e.key==='Enter') fixSearch(); });
+});
+
+function setExample(t){ input.value=t; input.dispatchEvent(new Event('input')); input.focus(); }
+
+function showToast(msg,color){
+  toast.textContent=msg; toast.style.background=color||'var(--success)'; toast.style.color=color?'#fff':'#0A1929';
+  toast.classList.add('show'); setTimeout(()=>toast.classList.remove('show'),2200);
+}
+function copyText(text){ navigator.clipboard.writeText(text).then(()=>showToast('✓ Copiado!')).catch(()=>showToast('Copie manualmente')); }
+function shareResult(){
+  const q=input.value.trim();
+  if(q.length<5) return;
+  const url=`${location.origin}/?q=${encodeURIComponent(q)}`;
+  if(navigator.share) return navigator.share({title:'FixMySearch', text:`Minha busca reformulada: ${q}`, url}).catch(()=>{});
+  navigator.clipboard.writeText(url).then(()=>showToast('✓ Link copiado')).catch(()=>showToast('Copie o link da barra'));
+}
+async function startReportCheckout(){
+  const q=input.value.trim();
+  if(q.length<5) return;
+  try{
+    const res=await fetch('/api/checkout-report',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({query:q})});
+    const data=await res.json();
+    if(!res.ok||!data.url) throw new Error(data.error||'Erro ao abrir o pagamento.');
+    location.href=data.url;
+  }catch(err){ showToast(err.message,'#c0392b'); }
+}
+function hideModal(){ document.getElementById('modalOverlay').style.display='none'; document.body.style.overflow=''; }
+function handleOverlayClick(e){ if(e.target===document.getElementById('modalOverlay')) hideModal(); }
+
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function planBoxHTML(){
+  return `<div class="plan-box">
+      <div class="plan-price">R$19 <span>/ mês</span></div>
+      <ul class="plan-features">
+        <li>Buscas ilimitadas (fair-use de 200/dia)</li>
+        <li>Histórico das últimas 50 buscas</li>
+        <li>Exportar resultados em texto</li>
+        <li>Cancele quando quiser</li>
+      </ul>
+    </div>`;
+}
+function authViewHTML(){
+  return `<div class="modal-icon">🚀</div>
+    <h2>Seja Pro por R$19/mês</h2>
+    <p class="modal-sub">Entre com seu email para continuar. Enviamos um link mágico — sem senha.</p>
+    ${planBoxHTML()}
+    <form onsubmit="sendMagicLink(event)">
+      <input class="auth-input" id="emailInput" type="email" required placeholder="voce@email.com" autocomplete="email">
+      <button class="btn-upgrade" type="submit">✦ Receber link de acesso</button>
+    </form>
+    <div class="modal-note">Cancele quando quiser · Pagamento seguro via Stripe</div>`;
+}
+function upgradeViewHTML(){
+  return `<div class="modal-icon">🚀</div>
+    <h2>Seja Pro</h2>
+    <p class="modal-sub">Reformule sem parar, com histórico das últimas 50 buscas e exportação em texto.</p>
+    ${planBoxHTML()}
+    <button class="btn-upgrade" onclick="startCheckout(this)">✦ Assinar por R$19/mês</button>
+    <button class="btn-ghost-sm" style="width:100%;margin-top:8px" onclick="logout()">Sair da conta</button>
+    <div class="modal-note">Logado como ${esc(me.email)}</div>`;
+}
+function proViewHTML(){
+  return `<div class="modal-icon">✦</div>
+    <h2>Você é Pro</h2>
+    <p class="modal-sub">${esc(me.email)}<br>Buscas ilimitadas com fair-use de ${me.limit}/dia.</p>
+    <button class="btn-upgrade" onclick="openPortal(this)">Gerenciar assinatura</button>
+    <button class="btn-ghost-sm" style="width:100%;margin-top:8px" onclick="logout()">Sair da conta</button>
+    <div class="modal-note">Cancele quando quiser pelo portal do Stripe</div>`;
+}
+function showModal(){
+  if(!sb){ showToast('🔜 Pagamento em breve!','#6B7FFF'); return; }
+  document.getElementById('modalContent').innerHTML = isPro() ? proViewHTML() : me ? upgradeViewHTML() : authViewHTML();
+  document.getElementById('modalOverlay').style.display='flex';
+  document.body.style.overflow='hidden';
+}
+
+async function loadMe(token){
+  if(token) accessToken = token;
+  if(!accessToken) return false;
+  try {
+    const res = await fetch('/api/me', { headers:{ Authorization:`Bearer ${accessToken}` } });
+    if(!res.ok) return false;
+    me = await res.json();
+    updateUsagePill(); refreshAccountUI();
+    return true;
+  } catch { return false; }
+}
+
+async function initAuth(){
+  if(!sb) return;
+  const { data } = await sb.auth.getSession();
+  if(data.session) await loadMe(data.session.access_token);
+  sb.auth.onAuthStateChange((event, session)=>{
+    if(session) loadMe(session.access_token);
+    else { me=null; accessToken=null; updateUsagePill(); refreshAccountUI(); }
+  });
+}
+
+async function sendMagicLink(event){
+  event.preventDefault();
+  if(!sb) return;
+  const email = document.getElementById('emailInput').value.trim();
+  const button = event.target.querySelector('button');
+  button.disabled = true; button.textContent = '⏳ Enviando...';
+  const { error } = await sb.auth.signInWithOtp({
+    email,
+    options:{ emailRedirectTo: location.origin + location.pathname + '?upgrade=1' },
+  });
+  if(error){
+    showToast(error.message, '#FF6B6B');
+    button.disabled = false; button.textContent = '✦ Receber link de acesso';
+    return;
+  }
+  document.getElementById('modalContent').innerHTML = `<div class="modal-icon">📬</div>
+    <h2>Confira seu email</h2>
+    <p class="modal-sub">Enviamos um link de acesso para <strong>${esc(email)}</strong>. Clique nele para entrar.</p>
+    <button class="btn-ghost-sm" style="width:100%" onclick="hideModal()">Fechar</button>`;
+}
+
+async function postJson(url, button, loadingText, fallbackText){
+  button.disabled = true; button.textContent = loadingText;
+  try {
+    const res = await fetch(url, { method:'POST', headers:{ Authorization:`Bearer ${accessToken}` } });
+    const data = await res.json().catch(()=>({}));
+    if(!res.ok) throw new Error(data.error || 'Erro ao abrir pagamento.');
+    location.href = data.url;
+  } catch(err){
+    showToast(err.message, '#FF6B6B');
+    button.disabled = false; button.textContent = fallbackText;
+  }
+}
+function startCheckout(button){ return postJson('/api/checkout', button, '⏳ Abrindo checkout...', '✦ Assinar por R$19/mês'); }
+function openPortal(button){ return postJson('/api/portal', button, '⏳ Abrindo...', 'Gerenciar assinatura'); }
+
+async function logout(){
+  if(sb) await sb.auth.signOut();
+  me = null; accessToken = null;
+  hideModal(); updateUsagePill(); refreshAccountUI();
+  showToast('Você saiu da conta.');
+}
+
+function renderResults(data){
+  const reforms=(data.reformulations||[]).map(r=>`
+    <div class="reform-item" data-query="${esc(r.query)}" onclick="copyText(this.dataset.query)">
+      <span class="reform-type type-${esc(r.typeKey||'tecnica')}">${esc(r.typeLabel)}</span>
+      <div style="flex:1"><div class="reform-text">${esc(r.query)}</div><div class="copy-hint">clique para copiar</div></div>
+    </div>`).join('');
+  const wheres=(data.whereTo||[]).map(w=>`
+    <div class="where-chip">
+      <span class="icon">${esc(w.icon)}</span>
+      <div class="where-inner"><span class="wname">${esc(w.name)}</span><span class="why">${esc(w.reason)}</span></div>
+    </div>`).join('');
+  const r=getRemainingUses();
+  const banner = r===0 ? (isPro()
+    ? `<div class="upgrade-banner">
+        <div class="upgrade-banner-left"><h3>⚡ Limite diário atingido</h3><p>Você atingiu o fair-use de ${me.limit} buscas em 24h. Volte mais tarde.</p></div>
+      </div>`
+    : `<div class="upgrade-banner">
+        <div class="upgrade-banner-left"><h3>⚡ Limite diário atingido</h3><p>Você usou suas ${me ? me.limit : FREE_LIMIT} buscas grátis nas últimas 24h.<br>Seja Pro e reformule sem limites.</p></div>
+        <button class="btn-upgrade-sm" onclick="showModal()">✦ Seja Pro — R$19/mês</button>
+      </div>`)
+    : (!isPro() && r===1) ? `<div style="background:var(--gold-dim);border:1px solid var(--gold);border-radius:11px;padding:12px 16px;margin-bottom:24px;font-size:0.84rem;color:var(--gold)">
+      ⚠️ Última busca grátis do dia. <button style="background:none;border:none;color:var(--gold);font-weight:700;cursor:pointer;text-decoration:underline" onclick="showModal()">Seja Pro para ter ilimitadas.</button></div>` : '';
+
+  resultsWrap.innerHTML=`${banner}
+    <div class="result-block"><div class="block-label">O QUE VOCÊ REALMENTE QUER SABER</div>
+      <div class="intention-box"><div class="lbl">INTENÇÃO REAL</div><p>${esc(data.intention)}</p></div></div>
+    <div class="result-block"><div class="block-label">5 FORMAS MELHORES DE BUSCAR</div><div class="reform-list">${reforms}</div></div>
+    <div class="result-block"><div class="block-label">ONDE BUSCAR ALÉM DO GOOGLE</div><div class="where-list">${wheres}</div></div>
+    <div class="result-block" style="background:var(--gold-dim);border:1px solid var(--gold);border-radius:11px;padding:16px">
+      <div style="font-weight:700;margin-bottom:4px">Quer um plano de ação pronto?</div>
+      <div style="color:var(--muted);font-size:.85rem;margin-bottom:10px">Relatório completo com passos, checklist e perguntas — R$9,90.</div>
+      <button class="btn-upgrade-sm" onclick="startReportCheckout()">Quero o relatório — R$9,90</button>
+    </div>
+    <div class="result-block"><button class="btn-upgrade-sm" onclick="shareResult()">🔗 Compartilhar resultado</button></div>`;
+  resultsWrap.style.display='block';
+  setTimeout(()=>resultsWrap.scrollIntoView({behavior:'smooth',block:'start'}),50);
+}
+
+function renderBusinessResults(data){
+  const perguntas=(data.perguntas||[]).map((p,i)=>`
+    <div class="reform-item" data-query="${esc(p)}" onclick="copyText(this.dataset.query)">
+      <span class="reform-type type-tecnica">${i+1}</span>
+      <div style="flex:1"><div class="reform-text">${esc(p)}</div><div class="copy-hint">clique para copiar</div></div>
+    </div>`).join('');
+  const wheres=(data.ondeAparecer||[]).map(w=>`
+    <div class="where-chip">
+      <span class="icon">${esc(w.icon)}</span>
+      <div class="where-inner"><span class="wname">${esc(w.name)}</span><span class="why">${esc(w.reason)}</span></div>
+    </div>`).join('');
+  const check=(data.checklist||[]).map(c=>`<li>${esc(c)}</li>`).join('');
+  resultsWrap.innerHTML=`
+    <div class="result-block"><div class="block-label">DIAGNÓSTICO DE VISIBILIDADE EM IA</div>
+      <div class="intention-box"><div class="lbl">RESUMO</div><p>${esc(data.resumo)}</p></div></div>
+    <div class="result-block"><div class="block-label">PERGUNTAS QUE SEUS CLIENTES FAZEM À IA</div><div class="reform-list">${perguntas}</div></div>
+    <div class="result-block"><div class="block-label">ONDE SUA MARCA PRECISA APARECER</div><div class="where-list">${wheres}</div></div>
+    <div class="result-block"><div class="block-label">CHECKLIST PARA APARECER</div>
+      <ul class="plan-features" style="background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:14px 16px">${check}</ul></div>
+    <div class="upgrade-banner">
+      <div class="upgrade-banner-left"><h3>Quer o relatório completo?</h3><p>Diagnóstico da sua marca nas IAs + plano de ação por R$297, entregue pelo WhatsApp.</p></div>
+      <a class="btn-upgrade-sm" style="text-decoration:none;display:inline-block" href="https://wa.me/5588921585236?text=Ol%C3%A1!%20Quero%20o%20relat%C3%B3rio%20completo%20de%20visibilidade%20em%20IA." target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </div>`;
+  resultsWrap.style.display='block';
+  setTimeout(()=>resultsWrap.scrollIntoView({behavior:'smooth',block:'start'}),50);
+}
+
+async function fixSearch(){
+  const biz = isBizMode();
+  let body;
+  if(biz){
+    const business=bizName.value.trim(), niche=bizNiche.value.trim(), city=bizCity.value.trim();
+    if(!business||!niche||!city) return;
+    body={mode:'business',business,niche,city};
+  } else {
+    const q=input.value.trim();
+    if(q.length<5) return;
+    body={query:q};
+  }
+  if(getRemainingUses()<=0){ showModal(); return; }
+
+  fixBtn.disabled=true; fixBtn.textContent='⏳ Analisando...';
+  resultsWrap.style.display='block';
+  resultsWrap.innerHTML=`<div class="loading"><div class="pulse-ring"></div><p>${biz?'Analisando a visibilidade do negócio…':'Reformulando com IA…'}</p></div>`;
+  resultsWrap.scrollIntoView({behavior:'smooth',block:'start'});
+
+  const headers = {'Content-Type':'application/json'};
+  if(accessToken) headers.Authorization = `Bearer ${accessToken}`;
+
+  try {
+    const res = await fetch(API_URL, { method:'POST', headers, body:JSON.stringify(body) });
+    if(res.status===429){ showModal(); throw new Error('Limite diário atingido. Assine o Pro para continuar.'); }
+    if(!res.ok){ const e=await res.json().catch(()=>({})); throw new Error(e.error||`Erro ${res.status}`); }
+    const data = await res.json();
+    if(biz){
+      if(!data.resumo||!Array.isArray(data.perguntas)) throw new Error('Resposta inesperada');
+    } else if(!data.intention||!Array.isArray(data.reformulations)) throw new Error('Resposta inesperada');
+    if(me){
+      me.used = Number(res.headers.get('X-Quota-Used') || me.used + 1);
+      me.plan = res.headers.get('X-Plan') || me.plan;
+    } else {
+      incrementUsage();
+    }
+    updateUsagePill(); refreshAccountUI();
+    biz ? renderBusinessResults(data) : renderResults(data);
+  } catch(err){
+    resultsWrap.innerHTML=`<div class="error-box"><strong>Algo deu errado.</strong><br>${esc(err.message||'Erro desconhecido.')}</div>`;
+  } finally {
+    fixBtn.textContent = biz ? '✦ Analisar negócio' : '✦ Reformular busca';
+    updateFixBtn();
+  }
+}
+
+async function showHistory(){
+  if(!isPro()){ showModal(); return; }
+  resultsWrap.style.display='block';
+  resultsWrap.innerHTML=`<div class="loading"><div class="pulse-ring"></div><p>Carregando histórico…</p></div>`;
+  try {
+    const res = await fetch('/api/history', { headers:{ Authorization:`Bearer ${accessToken}` } });
+    const data = await res.json().catch(()=>({}));
+    if(!res.ok) throw new Error(data.error || 'Erro ao carregar histórico.');
+    historyItems = data.items || [];
+    if(!historyItems.length){
+      resultsWrap.innerHTML=`<div class="error-box">Nenhuma busca no histórico ainda.</div>`;
+      return;
+    }
+    resultsWrap.innerHTML=`<div class="result-block">
+      <div class="block-label">HISTÓRICO · ÚLTIMAS ${historyItems.length} BUSCAS
+        <button class="btn-ghost-sm" onclick="exportHistory()">Exportar .txt</button>
+      </div>
+      ${historyItems.map((item,i)=>`<div class="history-item" onclick="showHistoryItem(${i})">
+        <div class="history-query">${esc(item.query)}</div>
+        <div class="history-meta">${esc(item.result?.intention || item.result?.resumo || '')} · ${new Date(item.created_at).toLocaleDateString('pt-BR')}</div>
+      </div>`).join('')}
+    </div>`;
+    resultsWrap.scrollIntoView({behavior:'smooth',block:'start'});
+  } catch(err){
+    resultsWrap.innerHTML=`<div class="error-box">${esc(err.message)}</div>`;
+  }
+}
+function showHistoryItem(i){
+  const r = historyItems[i]?.result;
+  if(!r) return;
+  r.perguntas ? renderBusinessResults(r) : renderResults(r);
+}
+
+function exportHistory(){
+  if(!historyItems.length) return;
+  const text = historyItems.map(item=>{
+    const r = item.result || {};
+    const head = `## ${item.query}\n${new Date(item.created_at).toLocaleString('pt-BR')}\n`;
+    if(Array.isArray(r.perguntas)){
+      const perguntas = r.perguntas.map(x=>`- ${x}`).join('\n');
+      const onde = (r.ondeAparecer||[]).map(x=>`- ${x.name}: ${x.reason}`).join('\n');
+      const check = (r.checklist||[]).map(x=>`- ${x}`).join('\n');
+      return `${head}\nResumo: ${r.resumo||''}\n\nPerguntas:\n${perguntas}\n\nOnde aparecer:\n${onde}\n\nChecklist:\n${check}\n`;
+    }
+    const reforms = (r.reformulations||[]).map(x=>`- [${x.typeLabel||x.typeKey}] ${x.query}`).join('\n');
+    const wheres = (r.whereTo||[]).map(x=>`- ${x.name}: ${x.reason}`).join('\n');
+    return `${head}\nIntenção: ${r.intention||''}\n\n${reforms}\n\nOnde buscar:\n${wheres}\n`;
+  }).join('\n---\n\n');
+  const blob = new Blob([text], {type:'text/plain;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'fixmysearch-historico.txt';
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  showToast('✓ Histórico exportado');
+}
+
+updateUsagePill();
+refreshAccountUI();
+
+(async ()=>{
+  await initAuth();
+  const params = new URLSearchParams(location.search);
+  const checkout = params.get('checkout');
+  const upgrade = params.get('upgrade');
+  const q = (params.get('q') || '').trim().slice(0, 400);
+  if(checkout || upgrade) history.replaceState({}, '', location.pathname);
+  if(q.length >= 5 && !checkout && !upgrade){
+    setMode('consumer');
+    input.value = q;
+    input.dispatchEvent(new Event('input'));
+    history.replaceState({}, '', location.pathname);
+    fixSearch();
+    return;
+  }
+  if(upgrade && me && !isPro()){ showModal(); return; }
+  if(checkout !== 'success') return;
+  showToast('Pagamento confirmado! Atualizando…');
+  for(let i=0; i<5 && !isPro(); i++){
+    await new Promise(resolve=>setTimeout(resolve, 2000));
+    await loadMe();
+  }
+  if(!isPro()) showToast('Pagamento em processamento. Atualize em instantes.', '#6B7FFF');
+})();
+</script>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>

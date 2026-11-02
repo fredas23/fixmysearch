@@ -1,0 +1,9 @@
+{
+  "name": "fixmysearch",
+  "version": "1.0.0",
+  "description": "MicroSaaS — reformulador de buscas do Google",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test", "plan": "node scripts/set-plan.mjs" },
+  "engines": { "node": ">=20" }
+}

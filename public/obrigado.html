@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Seu relatório | FixMySearch</title>
+  <style>
+    :root{color-scheme:dark}
+    *{box-sizing:border-box}
+    body{margin:0;background:#0F1923;color:#E6EDF5;font-family:Inter,system-ui,-apple-system,sans-serif;line-height:1.6}
+    a{color:#FFB432}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 24px;border-bottom:1px solid #1E3347;max-width:860px;margin:0 auto}
+    .brand{font-weight:800;color:#E6EDF5;text-decoration:none;letter-spacing:-.02em}
+    main{max-width:760px;margin:0 auto;padding:44px 24px 64px}
+    .badge{display:inline-block;background:#12351f;color:#6EE7A8;border:1px solid #1f6b3d;border-radius:20px;padding:4px 12px;font-size:.75rem;font-weight:700}
+    h1{font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.15;letter-spacing:-.03em;margin:14px 0 8px}
+    .query{color:#8FA6BC;font-size:.95rem}
+    section{margin-top:32px}
+    h2{font-size:.8rem;letter-spacing:.1em;color:#8FA6BC;margin:0 0 12px}
+    .box{background:#162232;border:1px solid #1E3347;border-left:3px solid #FFB432;border-radius:10px;padding:16px 18px}
+    ol,ul{margin:0;padding:0;list-style:none}
+    ol li,ul li{background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;margin-bottom:8px}
+    .tag{display:inline-block;font-size:.66rem;font-weight:700;color:#FFB432;text-transform:uppercase;margin-right:8px}
+    .where strong{display:block}
+    .where span{color:#8FA6BC;font-size:.84rem}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px}
+    button,.cta{background:linear-gradient(135deg,#FFB432,#FF7A00);color:#0A1929;border:0;border-radius:10px;padding:13px 20px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none}
+    .ghost{background:transparent;color:#E6EDF5;border:1px solid #1E3347}
+    .error{background:#3a1717;border:1px solid #7a2a2a;border-radius:10px;padding:16px}
+    .loading{color:#8FA6BC;padding:40px 0;text-align:center}
+    .aviso{color:#8FA6BC;font-size:.8rem;margin-top:28px}
+    @media print{
+      body{background:#fff;color:#111}
+      header,.actions,.badge{display:none}
+      .box,ol li,ul li{border-color:#ccc;background:#fff}
+      h2{color:#555}.where span,.query,.aviso{color:#444}a{color:#111}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="/">✦ FixMySearch</a>
+    <a href="/">Nova busca</a>
+  </header>
+  <main id="app">
+    <div class="loading">Carregando seu relatório…</div>
+  </main>
+  <script>
+    const app = document.getElementById('app');
+    const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    const sessionId = new URLSearchParams(location.search).get('session_id');
+
+    function fail(message) {
+      app.innerHTML = `<div class="error"><strong>Não foi possível abrir o relatório.</strong><br>${esc(message)}<br><br>
+        Se você pagou, fale com o suporte: <a href="https://wa.me/5588921585236?text=Ol%C3%A1!%20Paguei%20o%20relat%C3%B3rio%20e%20preciso%20de%20ajuda." target="_blank" rel="noopener">WhatsApp</a></div>`;
+    }
+
+    async function load() {
+      if (!sessionId) return fail('Sessão de pagamento ausente.');
+      try {
+        const res = await fetch(`/api/report?session_id=${encodeURIComponent(sessionId)}`);
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(data.error || `Erro ${res.status}`);
+        render(data);
+      } catch (err) {
+        fail(err.message || 'Erro desconhecido.');
+      }
+    }
+
+    function render(data) {
+      const arr = (v) => Array.isArray(v) ? v : [];
+      const reforms = arr(data.reformulations).map((r) => `<li><span class="tag">${esc(r.typeLabel)}</span>${esc(r.query)}</li>`).join('');
+      const places = arr(data.whereTo).map((w) => `<li class="where"><strong>${esc(w.icon)} ${esc(w.name)}</strong><span>${esc(w.reason)}</span></li>`).join('');
+      const plan = arr(data.plano).map((p) => `<li>${esc(p)}</li>`).join('');
+      const check = arr(data.checklist).map((c) => `<li>${esc(c)}</li>`).join('');
+      const questions = arr(data.perguntas).map((q) => `<li>${esc(q)}</li>`).join('');
+      app.innerHTML = `
+        <span class="badge">✓ Pagamento confirmado</span>
+        <h1>Seu relatório está pronto</h1>
+        <div class="query">Busca original: “${esc(data.query)}”</div>
+
+        <section><h2>O QUE VOCÊ REALMENTE QUER SABER</h2><div class="box">${esc(data.intention)}</div></section>
+        <section><h2>5 FORMAS MELHORES DE BUSCAR</h2><ol>${reforms}</ol></section>
+        <section><h2>ONDE BUSCAR ALÉM DO GOOGLE</h2><ul>${places}</ul></section>
+        <section><h2>PLANO DE AÇÃO</h2><ol>${plan}</ol></section>
+        <section><h2>CHECKLIST</h2><ul>${check}</ul></section>
+        <section><h2>PERGUNTAS PARA LEVAR ADIANTE</h2><ul>${questions}</ul></section>
+        <p class="aviso">${esc(data.aviso || 'Conteúdo informativo; não substitui orientação profissional.')}</p>
+
+        <div class="actions">
+          <button onclick="window.print()">Imprimir / salvar PDF</button>
+          <a class="cta ghost" href="/">Reformular outra busca</a>
+        </div>`;
+    }
+
+    load();
+  </script>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
