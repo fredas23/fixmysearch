@@ -15,6 +15,18 @@ if (fs.existsSync(envPath)) {
   }
 }
 
+const CATEGORY_LABELS = {
+  carreira: 'Carreira e emprego',
+  estudos: 'Estudos e concursos',
+  saude: 'Saúde e bem-estar',
+  casa: 'Casa e limpeza',
+  plantas: 'Plantas e jardim',
+  tecnologia: 'Tecnologia',
+  dinheiro: 'Dinheiro',
+  beleza: 'Beleza e roupas',
+  culinaria: 'Culinária'
+};
+
 const QUERIES = [
   'minha planta está amarelando e caindo as folhas',
   'como parar de procrastinar para estudar',
@@ -95,19 +107,38 @@ function pageHtml(item, items) {
         </li>`).join('');
   const places = (d.whereTo || []).map((w) => `
         <li><strong>${escapeHtml(w.icon)} ${escapeHtml(w.name)}</strong><span>${escapeHtml(w.reason)}</span></li>`).join('');
-  const related = items
-    .filter((other) => other.slug !== item.slug)
+  const steps = (d.steps || []).map((step, index) => `
+        <li><span class="num">${index + 1}</span><span>${escapeHtml(step)}</span></li>`).join('');
+  const mistakes = (d.mistakes || []).map((mistake) => `<li>${escapeHtml(mistake)}</li>`).join('');
+  const relatedPool = items.filter((other) => other.slug !== item.slug);
+  const related = [
+    ...relatedPool.filter((other) => other.category === item.category),
+    ...relatedPool.filter((other) => other.category !== item.category)
+  ]
     .slice(0, 4)
     .map((other) => `<li><a href="/p/${other.slug}">${escapeHtml(other.query)}</a></li>`)
     .join('');
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
-    '@type': 'WebPage',
-    name: item.query,
-    description: d.intention,
-    url,
-    inLanguage: 'pt-BR',
-    isPartOf: { '@type': 'WebSite', name: 'FixMySearch', url: base },
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': url,
+        name: item.query,
+        description: d.intention,
+        url,
+        inLanguage: 'pt-BR',
+        isPartOf: { '@type': 'WebSite', name: 'FixMySearch', url: base },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'FixMySearch', item: base },
+          { '@type': 'ListItem', position: 2, name: 'Buscas reformuladas', item: `${base}/p` },
+          { '@type': 'ListItem', position: 3, name: item.query, item: url },
+        ],
+      },
+    ],
   }).replace(/</g, '\\u003c');
 
   return `<!doctype html>
@@ -143,6 +174,7 @@ function pageHtml(item, items) {
     ol,ul{margin:0;padding:0;list-style:none}
     ol li{display:flex;gap:10px;align-items:flex-start;background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;margin-bottom:8px}
     .tag{font-size:.66rem;font-weight:700;color:#FFB432;text-transform:uppercase;white-space:nowrap;padding-top:3px}
+    .num{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;border-radius:50%;background:#FFB432;color:#0A1929;font-size:.72rem;font-weight:800}
     code{font-family:inherit;font-size:.95rem;color:#E6EDF5}
     ul li{background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;margin-bottom:8px}
     ul li strong{display:block;font-size:.92rem}
@@ -175,6 +207,17 @@ function pageHtml(item, items) {
       <ol>${reformulations}
       </ol>
     </section>
+
+    ${steps ? `<section>
+      <h2>COMO RESOLVER NA PRÁTICA</h2>
+      <ol>${steps}
+      </ol>
+    </section>` : ''}
+
+    ${mistakes ? `<section>
+      <h2>ERROS QUE ATRAPALHAM</h2>
+      <ul>${mistakes}</ul>
+    </section>` : ''}
 
     <section>
       <h2>ONDE BUSCAR ALÉM DO GOOGLE</h2>
@@ -218,7 +261,15 @@ function pageHtml(item, items) {
 }
 
 function indexHtml(items) {
-  const links = items.map((item) => `<li><a href="/p/${item.slug}">${escapeHtml(item.query)}</a></li>`).join('');
+  const grouped = new Map();
+  for (const item of items) {
+    const category = item.category || 'estudos';
+    if (!grouped.has(category)) grouped.set(category, []);
+    grouped.get(category).push(item);
+  }
+  const links = [...grouped.entries()].map(([category, list]) => `
+    <h2>${escapeHtml(CATEGORY_LABELS[category] || category)}</h2>
+    <ul>${list.map((item) => `<li><a href="/p/${item.slug}">${escapeHtml(item.query)}</a></li>`).join('')}</ul>`).join('');
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -232,7 +283,8 @@ function indexHtml(items) {
     a{color:#FFB432}
     main{max-width:760px;margin:0 auto;padding:44px 24px}
     h1{letter-spacing:-.03em}
-    li{margin-bottom:12px;background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;list-style:none}
+    h2{margin:32px 0 10px;font-size:.78rem;letter-spacing:.1em;color:#8FA6BC;text-transform:uppercase}
+    li{margin-bottom:8px;background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;list-style:none}
     ul{padding:0}
     .cta{display:inline-block;margin-top:24px;background:linear-gradient(135deg,#FFB432,#FF7A00);color:#0A1929;padding:12px 18px;border-radius:10px;font-weight:800;text-decoration:none}
   </style>
@@ -262,8 +314,9 @@ function sitemap(items) {
 async function main() {
   const existing = loadData();
   const items = [];
+  const queries = [...new Set([...QUERIES, ...existing.keys()])];
 
-  for (const query of QUERIES) {
+  for (const query of queries) {
     const cached = existing.get(query);
     if (cached && !force) {
       items.push(cached);

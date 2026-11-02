@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { slugify, escapeHtml, metaDescription } from '../lib/seo.js';
+
+test('seo/data.json tem 100 slugs únicos', () => {
+  const items = JSON.parse(fs.readFileSync(new URL('../seo/data.json', import.meta.url))).items;
+  assert.equal(items.length, 100);
+  assert.equal(new Set(items.map((item) => item.slug)).size, 100);
+});
 
 test('slugify remove acentos e pontuação', () => {
   assert.equal(slugify('Minha planta está amarelando?!'), 'minha-planta-esta-amarelando');

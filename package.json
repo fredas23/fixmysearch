@@ -4,6 +4,6 @@
   "description": "MicroSaaS — reformulador de buscas do Google",
   "private": true,
   "type": "module",
-  "scripts": { "test": "node --test", "plan": "node scripts/set-plan.mjs" },
+  "scripts": { "test": "node --test", "plan": "node scripts/set-plan.mjs", "indexnow": "node scripts/indexnow.mjs" },
   "engines": { "node": ">=20" }
 }

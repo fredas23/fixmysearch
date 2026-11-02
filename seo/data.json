@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T02:55:09.633Z",
+  "generatedAt": "2026-11-02T13:30:28.945Z",
   "items": [
     {
       "query": "minha planta está amarelando e caindo as folhas",
@@ -55,7 +55,8 @@
             "reason": "Entenda as causas nutricionais."
           }
         ]
-      }
+      },
+      "category": "plantas"
     },
     {
       "query": "como parar de procrastinar para estudar",
@@ -111,7 +112,8 @@
             "reason": "Modelos de cronograma e acompanhamento."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "dor nas costas ao acordar e rigidez",
@@ -167,7 +169,8 @@
             "reason": "Relatos e perguntas de outros pacientes."
           }
         ]
-      }
+      },
+      "category": "saude"
     },
     {
       "query": "como aprender programação do zero sozinho",
@@ -223,7 +226,8 @@
             "reason": "Aulas de lógica e Python em português."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como emagrecer rápido sem dieta e sem academia",
@@ -279,7 +283,8 @@
             "reason": "Recomendações de atividade física."
           }
         ]
-      }
+      },
+      "category": "saude"
     },
     {
       "query": "como tirar mancha de roupa branca encardida",
@@ -335,7 +340,8 @@
             "reason": "Entenda os tipos e os riscos ao tecido."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como economizar dinheiro todo mês ganhando pouco",
@@ -391,7 +397,8 @@
             "reason": "Modelos prontos para controlar gastos."
           }
         ]
-      }
+      },
+      "category": "dinheiro"
     },
     {
       "query": "como estudar para concurso trabalhando",
@@ -447,7 +454,8 @@
             "reason": "Modelos de ciclo de estudos."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como melhorar a bateria do celular que descarrega rápido",
@@ -503,7 +511,8 @@
             "reason": "Passos oficiais de economia de energia."
           }
         ]
-      }
+      },
+      "category": "tecnologia"
     },
     {
       "query": "como acabar com a insônia naturalmente",
@@ -559,7 +568,8 @@
             "reason": "Orientações baseadas em evidências."
           }
         ]
-      }
+      },
+      "category": "saude"
     },
     {
       "query": "como limpar sofá de tecido em casa",
@@ -615,7 +625,8 @@
             "reason": "Identifique o tipo de mancha."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como tirar mau cheiro da geladeira",
@@ -671,7 +682,8 @@
             "reason": "Filtros e potes absorventes."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como eliminar formigas da cozinha",
@@ -727,7 +739,8 @@
             "reason": "Controle de formigas domésticas."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como limpar prata escurecida em casa",
@@ -783,7 +796,8 @@
             "reason": "Panos e produtos específicos."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como tirar ferrugem de roupa branca",
@@ -839,7 +853,8 @@
             "reason": "Prevenção na máquina."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como tirar cheiro de mofo de roupa",
@@ -895,7 +910,8 @@
             "reason": "Controle de umidade."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como fazer currículo sem experiência",
@@ -951,7 +967,8 @@
             "reason": "Modelos editáveis."
           }
         ]
-      }
+      },
+      "category": "carreira"
     },
     {
       "query": "como se sair bem em entrevista de emprego sem experiência",
@@ -1007,7 +1024,8 @@
             "reason": "Relatos de entrevistas."
           }
         ]
-      }
+      },
+      "category": "carreira"
     },
     {
       "query": "como aprender inglês sozinho em casa",
@@ -1063,7 +1081,8 @@
             "reason": "Conteúdo gratuito por nível."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como melhorar a memória para estudar",
@@ -1119,7 +1138,8 @@
             "reason": "Curso Aprendendo a Aprender."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como organizar a rotina de estudos",
@@ -1175,7 +1195,8 @@
             "reason": "Gestão de tempo."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como aliviar a ansiedade antes da prova",
@@ -1231,7 +1252,8 @@
             "reason": "Conteúdo baseado em evidências."
           }
         ]
-      }
+      },
+      "category": "estudos"
     },
     {
       "query": "como escolher um notebook para estudar",
@@ -1287,7 +1309,8 @@
             "reason": "Comparador de preços."
           }
         ]
-      }
+      },
+      "category": "tecnologia"
     },
     {
       "query": "como melhorar a postura no trabalho",
@@ -1343,7 +1366,8 @@
             "reason": "Manual da cadeira."
           }
         ]
-      }
+      },
+      "category": "saude"
     },
     {
       "query": "como começar a correr sem se machucar",
@@ -1399,7 +1423,8 @@
             "reason": "Plano guiado."
           }
         ]
-      }
+      },
+      "category": "saude"
     },
     {
       "query": "como cuidar de suculentas em apartamento",
@@ -1455,7 +1480,8 @@
             "reason": "Identifique a espécie."
           }
         ]
-      }
+      },
+      "category": "plantas"
     },
     {
       "query": "como economizar energia elétrica em casa",
@@ -1511,7 +1537,8 @@
             "reason": "Consumo do equipamento."
           }
         ]
-      }
+      },
+      "category": "casa"
     },
     {
       "query": "como se preparar para o Enem em pouco tempo",
@@ -1566,6 +1593,4399 @@
             "name": "Descomplica",
             "reason": "Revisão e simulados."
           }
+        ]
+      },
+      "category": "estudos"
+    },
+    {
+      "query": "como fazer uma carta de apresentação",
+      "slug": "como-fazer-uma-carta-de-apresentacao",
+      "category": "carreira",
+      "data": {
+        "intention": "Montar uma carta curta que conecte sua experiência à vaga e aumente as chances de entrevista.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer uma carta de apresentação passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer uma carta de apresentação: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer uma carta de apresentação"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer uma carta de apresentação"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer uma carta de apresentação dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Leia a vaga e liste três exigências que você consegue comprovar.",
+          "Abra com o cargo e seu resultado mais relevante em uma frase.",
+          "Feche com disponibilidade e convite para conversar."
+        ],
+        "mistakes": [
+          "Repetir o currículo inteiro.",
+          "Usar o mesmo texto para todas as vagas."
+        ]
+      }
+    },
+    {
+      "query": "como se destacar no LinkedIn",
+      "slug": "como-se-destacar-no-linkedin",
+      "category": "carreira",
+      "data": {
+        "intention": "Transformar o perfil em uma vitrine profissional clara para recrutadores e colegas da área.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como se destacar no LinkedIn passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como se destacar no LinkedIn: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como se destacar no LinkedIn"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como se destacar no LinkedIn"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como se destacar no LinkedIn dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Use um título com cargo, especialidade e resultado.",
+          "Escreva um resumo com entregas concretas, não só tarefas.",
+          "Publique com constância e peça recomendações."
+        ],
+        "mistakes": [
+          "Só listar atividades sem resultados.",
+          "Deixar o perfil sem foto, contato ou palavras-chave da área."
+        ]
+      }
+    },
+    {
+      "query": "como pedir aumento de salário",
+      "slug": "como-pedir-aumento-de-salario",
+      "category": "carreira",
+      "data": {
+        "intention": "Preparar argumentos com resultados e escolher o momento certo para conversar com a liderança.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como pedir aumento de salário passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como pedir aumento de salário: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como pedir aumento de salário"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como pedir aumento de salário"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como pedir aumento de salário dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Reúna entregas e números dos últimos seis meses.",
+          "Pesquise a faixa salarial da função na sua região.",
+          "Marque uma conversa objetiva e peça um valor específico."
+        ],
+        "mistakes": [
+          "Comparar seu salário com o de colegas.",
+          "Pedir aumento sem plano alternativo ou sem mostrar resultado."
+        ]
+      }
+    },
+    {
+      "query": "como mudar de área profissional",
+      "slug": "como-mudar-de-area-profissional",
+      "category": "carreira",
+      "data": {
+        "intention": "Planejar uma transição usando habilidades transferíveis e provas concretas de interesse pela nova área.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como mudar de área profissional passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como mudar de área profissional: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como mudar de área profissional"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como mudar de área profissional"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como mudar de área profissional dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Liste habilidades que servem à nova função.",
+          "Faça um projeto pequeno para mostrar iniciativa.",
+          "Adapte currículo e networking para a nova área."
+        ],
+        "mistakes": [
+          "Desistir sem testar a rotina da nova área.",
+          "Ignorar requisitos básicos e cursos pedidos nas vagas."
+        ]
+      }
+    },
+    {
+      "query": "como se preparar para uma entrevista de emprego",
+      "slug": "como-se-preparar-para-uma-entrevista-de-emprego",
+      "category": "carreira",
+      "data": {
+        "intention": "Preparar respostas, exemplos e perguntas para uma entrevista mais segura e específica.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como se preparar para uma entrevista de emprego passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como se preparar para uma entrevista de emprego: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como se preparar para uma entrevista de emprego"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como se preparar para uma entrevista de emprego"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como se preparar para uma entrevista de emprego dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Estude a empresa e a descrição da vaga.",
+          "Prepare exemplos com situação, ação e resultado.",
+          "Treine em voz alta e leve perguntas para o entrevistador."
+        ],
+        "mistakes": [
+          "Decorar respostas prontas.",
+          "Falar mal do emprego ou do chefe anterior."
+        ]
+      }
+    },
+    {
+      "query": "como negociar salário",
+      "slug": "como-negociar-salario",
+      "category": "carreira",
+      "data": {
+        "intention": "Negociar a proposta com informação, limites claros e sem queimar a relação com a empresa.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como negociar salário passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como negociar salário: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como negociar salário"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como negociar salário"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como negociar salário dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Pesquise faixa salarial e benefícios do cargo.",
+          "Defina mínimo, alvo e a justificativa para o pedido.",
+          "Peça a proposta por escrito e negocie o pacote completo."
+        ],
+        "mistakes": [
+          "Aceitar a primeira oferta na hora.",
+          "Inventar outra proposta para pressionar."
+        ]
+      }
+    },
+    {
+      "query": "como lidar com chefe difícil",
+      "slug": "como-lidar-com-chefe-dificil",
+      "category": "carreira",
+      "data": {
+        "intention": "Reduzir conflito com expectativas claras, registro de combinados e conversas objetivas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como lidar com chefe difícil passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como lidar com chefe difícil: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como lidar com chefe difícil"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como lidar com chefe difícil"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como lidar com chefe difícil dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Documente prazos, pedidos e mudanças de escopo.",
+          "Peça feedback específico sobre o que precisa melhorar.",
+          "Escalone com fatos se o problema persistir."
+        ],
+        "mistakes": [
+          "Reagir no calor da discussão.",
+          "Falar pelas costas em vez de resolver com fatos."
+        ]
+      }
+    },
+    {
+      "query": "como organizar a semana de trabalho",
+      "slug": "como-organizar-a-semana-de-trabalho",
+      "category": "carreira",
+      "data": {
+        "intention": "Priorizar entregas importantes e reservar tempo realista para cada tarefa.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como organizar a semana de trabalho passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como organizar a semana de trabalho: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como organizar a semana de trabalho"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como organizar a semana de trabalho"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como organizar a semana de trabalho dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Liste entregas, prazos e dependências.",
+          "Bloqueie horários para as prioridades antes de abrir a agenda.",
+          "Revise na sexta e ajuste o que ficou para trás."
+        ],
+        "mistakes": [
+          "Lotar a agenda de reuniões.",
+          "Confundir urgência com importância."
+        ]
+      }
+    },
+    {
+      "query": "como fazer networking sem parecer interesseiro",
+      "slug": "como-fazer-networking-sem-parecer-interesseiro",
+      "category": "carreira",
+      "data": {
+        "intention": "Criar relações profissionais genuínas antes de precisar pedir algo.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer networking sem parecer interesseiro passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer networking sem parecer interesseiro: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer networking sem parecer interesseiro"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer networking sem parecer interesseiro"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer networking sem parecer interesseiro dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Escolha cinco pessoas da área que você admira.",
+          "Comente conteúdos com contribuições reais.",
+          "Ofereça ajuda ou informação antes de fazer um pedido."
+        ],
+        "mistakes": [
+          "Vender seu serviço na primeira mensagem.",
+          "Só aparecer quando precisa de emprego ou favor."
+        ]
+      }
+    },
+    {
+      "query": "como escolher uma profissão",
+      "slug": "como-escolher-uma-profissao",
+      "category": "carreira",
+      "data": {
+        "intention": "Comparar interesses, mercado e rotina real antes de investir tempo em uma carreira.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como escolher uma profissão passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como escolher uma profissão: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como escolher uma profissão"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como escolher uma profissão"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como escolher uma profissão dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💼",
+            "name": "LinkedIn",
+            "reason": "Vagas, perfis e discussões reais da área."
+          },
+          {
+            "icon": "🎯",
+            "name": "Glassdoor",
+            "reason": "Salários e relatos de entrevistas."
+          },
+          {
+            "icon": "🧭",
+            "name": "r/brasil",
+            "reason": "Experiências de quem já passou por isso."
+          }
+        ],
+        "steps": [
+          "Liste atividades que você gosta e odeia fazer.",
+          "Converse com três profissionais da área.",
+          "Teste com um curso curto ou projeto prático."
+        ],
+        "mistakes": [
+          "Escolher só pelo salário inicial.",
+          "Ignorar a rotina diária e o mercado local."
+        ]
+      }
+    },
+    {
+      "query": "como estudar matemática do zero",
+      "slug": "como-estudar-matematica-do-zero",
+      "category": "estudos",
+      "data": {
+        "intention": "Reconstruir a base da matemática com diagnóstico, prática e revisão dos erros.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como estudar matemática do zero passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como estudar matemática do zero: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como estudar matemática do zero"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como estudar matemática do zero"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como estudar matemática do zero dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Diagnostique o que falta com exercícios simples.",
+          "Estude um conceito por vez e resolva exercícios logo depois.",
+          "Revise os erros toda semana."
+        ],
+        "mistakes": [
+          "Pular para exercícios avançados.",
+          "Só assistir vídeos sem resolver questões."
+        ]
+      }
+    },
+    {
+      "query": "como fazer um resumo eficiente",
+      "slug": "como-fazer-um-resumo-eficiente",
+      "category": "estudos",
+      "data": {
+        "intention": "Resumir para entender o conteúdo, e não apenas copiar frases do material.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer um resumo eficiente passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer um resumo eficiente: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer um resumo eficiente"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer um resumo eficiente"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer um resumo eficiente dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Leia e marque apenas as ideias principais.",
+          "Feche o material e escreva com suas palavras.",
+          "Compare com o original e corrija lacunas."
+        ],
+        "mistakes": [
+          "Copiar trechos inteiros.",
+          "Tentar resumir tudo com o mesmo nível de detalhe."
+        ]
+      }
+    },
+    {
+      "query": "como manter a concentração nos estudos",
+      "slug": "como-manter-a-concentracao-nos-estudos",
+      "category": "estudos",
+      "data": {
+        "intention": "Reduzir distrações e treinar blocos de foco compatíveis com a sua rotina.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como manter a concentração nos estudos passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como manter a concentração nos estudos: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como manter a concentração nos estudos"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como manter a concentração nos estudos"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como manter a concentração nos estudos dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Deixe o celular longe e silencie notificações.",
+          "Estude em blocos de 25 minutos com pausa curta.",
+          "Faça a pausa sem tela para recuperar atenção."
+        ],
+        "mistakes": [
+          "Tentar estudar fazendo multitarefa.",
+          "Estudar até a exaustão sem pausa."
+        ]
+      }
+    },
+    {
+      "query": "como estudar para o Enem sem cursinho",
+      "slug": "como-estudar-para-o-enem-sem-cursinho",
+      "category": "estudos",
+      "data": {
+        "intention": "Montar um plano com materiais gratuitos, provas antigas e correção de redação.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como estudar para o Enem sem cursinho passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como estudar para o Enem sem cursinho: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como estudar para o Enem sem cursinho"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como estudar para o Enem sem cursinho"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como estudar para o Enem sem cursinho dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Baixe a matriz de referência e provas anteriores.",
+          "Monte um cronograma com peso maior para as matérias que mais caem.",
+          "Corrija simulados e redações regularmente."
+        ],
+        "mistakes": [
+          "Estudar só conteúdo e nunca fazer prova.",
+          "Ignorar redação e interpretação de texto."
+        ]
+      }
+    },
+    {
+      "query": "como passar em concurso público",
+      "slug": "como-passar-em-concurso-publico",
+      "category": "estudos",
+      "data": {
+        "intention": "Estudar com base no edital, provas anteriores e revisão de longo prazo.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como passar em concurso público passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como passar em concurso público: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como passar em concurso público"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como passar em concurso público"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como passar em concurso público dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Leia o edital e mapeie disciplinas e pesos.",
+          "Resolva provas anteriores da mesma banca.",
+          "Mantenha revisão espaçada e simulados."
+        ],
+        "mistakes": [
+          "Começar a estudar sem ler o edital.",
+          "Trocar de material e de método toda semana."
+        ]
+      }
+    },
+    {
+      "query": "como criar hábito de leitura",
+      "slug": "como-criar-habito-de-leitura",
+      "category": "estudos",
+      "data": {
+        "intention": "Começar com livros curtos e metas pequenas para tornar a leitura parte da rotina.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como criar hábito de leitura passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como criar hábito de leitura: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como criar hábito de leitura"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como criar hábito de leitura"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como criar hábito de leitura dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Escolha um livro curto sobre um assunto que você já gosta.",
+          "Leia dez páginas por dia em um horário fixo.",
+          "Marque o progresso para manter a constância."
+        ],
+        "mistakes": [
+          "Começar por um livro difícil ou longo.",
+          "Definir uma meta grande demais para a primeira semana."
+        ]
+      }
+    },
+    {
+      "query": "como aprender Excel do zero",
+      "slug": "como-aprender-excel-do-zero",
+      "category": "estudos",
+      "data": {
+        "intention": "Aprender o essencial do Excel praticando com uma planilha real.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como aprender Excel do zero passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como aprender Excel do zero: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como aprender Excel do zero"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como aprender Excel do zero"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como aprender Excel do zero dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Domine células, fórmulas e referências.",
+          "Pratique com seus próprios gastos ou uma lista simples.",
+          "Aprenda tabela dinâmica e PROCX depois da base."
+        ],
+        "mistakes": [
+          "Decorar fórmulas sem entender a lógica.",
+          "Criar planilhas sem organização ou nomes claros."
+        ]
+      }
+    },
+    {
+      "query": "como estudar redação para o Enem",
+      "slug": "como-estudar-redacao-para-o-enem",
+      "category": "estudos",
+      "data": {
+        "intention": "Estruturar a redação e treinar com correção para evoluir nas cinco competências.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como estudar redação para o Enem passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como estudar redação para o Enem: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como estudar redação para o Enem"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como estudar redação para o Enem"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como estudar redação para o Enem dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Estude as competências e a estrutura dissertativo-argumentativa.",
+          "Escreva uma redação por semana com tema atual.",
+          "Peça correção e reescreva os pontos fracos."
+        ],
+        "mistakes": [
+          "Só ler redações nota mil.",
+          "Ignorar repertório e proposta de intervenção."
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a interpretação de texto",
+      "slug": "como-melhorar-a-interpretacao-de-texto",
+      "category": "estudos",
+      "data": {
+        "intention": "Ler com objetivo, identificar tese e argumentos e justificar cada resposta.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como melhorar a interpretação de texto passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como melhorar a interpretação de texto: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como melhorar a interpretação de texto"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como melhorar a interpretação de texto"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como melhorar a interpretação de texto dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Leia o texto identificando tese, argumentos e conclusão.",
+          "Sublinhe conectivos e palavras que mudam o sentido.",
+          "Pratique com questões e explique por que as alternativas erradas falham."
+        ],
+        "mistakes": [
+          "Ler rápido demais e responder por memória.",
+          "Escolher a alternativa que parece mais bonita."
+        ]
+      }
+    },
+    {
+      "query": "como estudar para o Enem trabalhando",
+      "slug": "como-estudar-para-o-enem-trabalhando",
+      "category": "estudos",
+      "data": {
+        "intention": "Organizar o pouco tempo disponível com prioridades, revisão curta e constância.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como estudar para o Enem trabalhando passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como estudar para o Enem trabalhando: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como estudar para o Enem trabalhando"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como estudar para o Enem trabalhando"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como estudar para o Enem trabalhando dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Mapeie os horários livres da semana.",
+          "Priorize as matérias de maior peso e suas dificuldades.",
+          "Use o transporte e intervalos para revisões curtas."
+        ],
+        "mistakes": [
+          "Planejar mais do que consegue cumprir.",
+          "Estudar sem dormir ou sem pausa."
+        ]
+      }
+    },
+    {
+      "query": "como revisar conteúdo para prova",
+      "slug": "como-revisar-conteudo-para-prova",
+      "category": "estudos",
+      "data": {
+        "intention": "Revisar com recuperação ativa e espaçamento em vez de reler passivamente.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como revisar conteúdo para prova passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como revisar conteúdo para prova: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como revisar conteúdo para prova"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como revisar conteúdo para prova"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como revisar conteúdo para prova dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Feche o material e tente responder perguntas.",
+          "Revise primeiro os erros e o que esqueceu.",
+          "Repita a revisão em um, sete e trinta dias."
+        ],
+        "mistakes": [
+          "Apenas reler o caderno.",
+          "Revisar tudo com a mesma frequência."
+        ]
+      }
+    },
+    {
+      "query": "como fazer flashcards",
+      "slug": "como-fazer-flashcards",
+      "category": "estudos",
+      "data": {
+        "intention": "Criar cartões curtos que forcem a lembrança ativa do conteúdo.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer flashcards passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer flashcards: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer flashcards"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer flashcards"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer flashcards dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📚",
+            "name": "Khan Academy",
+            "reason": "Explicações e exercícios gratuitos."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Aulas práticas e resoluções comentadas."
+          },
+          {
+            "icon": "🧠",
+            "name": "r/studytips",
+            "reason": "Métodos e rotinas de estudo."
+          }
+        ],
+        "steps": [
+          "Coloque uma pergunta por cartão.",
+          "Use respostas curtas e específicas.",
+          "Revise diariamente e ajuste os cartões difíceis."
+        ],
+        "mistakes": [
+          "Criar cartões com parágrafos longos.",
+          "Fazer cartões demais antes de revisar os primeiros."
+        ]
+      }
+    },
+    {
+      "query": "como dormir melhor",
+      "slug": "como-dormir-melhor",
+      "category": "saude",
+      "data": {
+        "intention": "Melhorar a rotina de sono com horários regulares, menos tela e ambiente adequado.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como dormir melhor passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como dormir melhor: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como dormir melhor"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como dormir melhor"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como dormir melhor dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Fixe um horário para acordar, inclusive no fim de semana.",
+          "Reduza telas e luz forte na hora antes de dormir.",
+          "Mantenha o quarto escuro, silencioso e fresco."
+        ],
+        "mistakes": [
+          "Tomar cafeína no fim da tarde.",
+          "Tentar compensar a semana dormindo demais no sábado."
+        ]
+      }
+    },
+    {
+      "query": "como reduzir o estresse no trabalho",
+      "slug": "como-reduzir-o-estresse-no-trabalho",
+      "category": "saude",
+      "data": {
+        "intention": "Identificar fontes de sobrecarga e criar limites e pausas possíveis na rotina.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como reduzir o estresse no trabalho passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como reduzir o estresse no trabalho: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como reduzir o estresse no trabalho"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como reduzir o estresse no trabalho"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como reduzir o estresse no trabalho dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Liste o que mais consome energia no trabalho.",
+          "Defina limites de horário, pausas e prioridades.",
+          "Procure apoio profissional se o estresse persistir."
+        ],
+        "mistakes": [
+          "Tratar estresse como sinal de fraqueza.",
+          "Usar álcool ou remédios sem orientação."
+        ]
+      }
+    },
+    {
+      "query": "como aliviar dor de cabeça tensional",
+      "slug": "como-aliviar-dor-de-cabeca-tensional",
+      "category": "saude",
+      "data": {
+        "intention": "Observar gatilhos de sono, tela e postura e buscar ajuda se a dor for frequente.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como aliviar dor de cabeça tensional passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como aliviar dor de cabeça tensional: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como aliviar dor de cabeça tensional"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como aliviar dor de cabeça tensional"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como aliviar dor de cabeça tensional dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Registre quando a dor aparece e o que você fez antes.",
+          "Faça pausas, alongamento e ajuste a postura.",
+          "Procure atendimento se a dor for forte ou frequente."
+        ],
+        "mistakes": [
+          "Usar analgésico em excesso sem orientação.",
+          "Ignorar sinais de alerta como febre ou visão alterada."
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a digestão",
+      "slug": "como-melhorar-a-digestao",
+      "category": "saude",
+      "data": {
+        "intention": "Melhorar hábitos alimentares e identificar gatilhos comuns de desconforto.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como melhorar a digestão passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como melhorar a digestão: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como melhorar a digestão"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como melhorar a digestão"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como melhorar a digestão dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Coma devagar e mastigue bem.",
+          "Observe alimentos que pioram o desconforto.",
+          "Caminhe levemente após as refeições."
+        ],
+        "mistakes": [
+          "Fazer refeições muito grandes.",
+          "Deitar logo depois de comer."
+        ]
+      }
+    },
+    {
+      "query": "como criar hábito de beber água",
+      "slug": "como-criar-habito-de-beber-agua",
+      "category": "saude",
+      "data": {
+        "intention": "Aumentar o consumo de água com lembretes e metas distribuídas ao longo do dia.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como criar hábito de beber água passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como criar hábito de beber água: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como criar hábito de beber água"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como criar hábito de beber água"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como criar hábito de beber água dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Deixe uma garrafa visível nos lugares que frequenta.",
+          "Defina pequenas metas por horário.",
+          "Use alarmes ou aplicativo se esquecer."
+        ],
+        "mistakes": [
+          "Beber tudo de uma vez no fim do dia.",
+          "Confundir sede com fome e beliscar."
+        ]
+      }
+    },
+    {
+      "query": "como começar a meditar",
+      "slug": "como-comecar-a-meditar",
+      "category": "saude",
+      "data": {
+        "intention": "Começar com sessões curtas de atenção à respiração, sem exigir a mente vazia.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como começar a meditar passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como começar a meditar: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como começar a meditar"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como começar a meditar"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como começar a meditar dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Sente-se confortavelmente e foque na respiração.",
+          "Quando se distrair, volte a atenção sem se cobrar.",
+          "Faça cinco minutos no mesmo horário."
+        ],
+        "mistakes": [
+          "Esperar que a mente fique completamente vazia.",
+          "Começar com sessões longas demais."
+        ]
+      }
+    },
+    {
+      "query": "como aliviar dor no joelho ao correr",
+      "slug": "como-aliviar-dor-no-joelho-ao-correr",
+      "category": "saude",
+      "data": {
+        "intention": "Reduzir carga, fortalecer a musculatura e avaliar tênis e técnica antes de voltar.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como aliviar dor no joelho ao correr passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como aliviar dor no joelho ao correr: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como aliviar dor no joelho ao correr"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como aliviar dor no joelho ao correr"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como aliviar dor no joelho ao correr dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Reduza volume e intensidade até a dor melhorar.",
+          "Fortaleça glúteos, quadríceps e panturrilhas.",
+          "Avalie tênis, terreno e técnica com um profissional."
+        ],
+        "mistakes": [
+          "Continuar correndo com dor.",
+          "Aumentar o volume de treino rápido demais."
+        ]
+      }
+    },
+    {
+      "query": "como melhorar a postura ao usar celular",
+      "slug": "como-melhorar-a-postura-ao-usar-celular",
+      "category": "saude",
+      "data": {
+        "intention": "Reduzir a tensão no pescoço e nos ombros mudando a altura do celular e fazendo pausas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como melhorar a postura ao usar celular passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como melhorar a postura ao usar celular: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como melhorar a postura ao usar celular"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como melhorar a postura ao usar celular"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como melhorar a postura ao usar celular dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Eleve o celular à altura dos olhos quando possível.",
+          "Faça pausas e alongamentos a cada 30 minutos.",
+          "Alongue peitoral e pescoço e fortaleça as costas."
+        ],
+        "mistakes": [
+          "Ficar horas na mesma posição.",
+          "Achar que só comprar um suporte resolve."
+        ]
+      }
+    },
+    {
+      "query": "como parar de roer unhas",
+      "slug": "como-parar-de-roer-unhas",
+      "category": "saude",
+      "data": {
+        "intention": "Identificar gatilhos e criar barreiras para reduzir o hábito aos poucos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como parar de roer unhas passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como parar de roer unhas: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como parar de roer unhas"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como parar de roer unhas"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como parar de roer unhas dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Registre os momentos em que você rói as unhas.",
+          "Use barreira física, como esmalte amargo ou curativo.",
+          "Substitua o gesto por um objeto ou movimento alternativo."
+        ],
+        "mistakes": [
+          "Punir-se quando roer.",
+          "Tentar parar de uma vez sem plano."
+        ]
+      }
+    },
+    {
+      "query": "como ter mais disposição pela manhã",
+      "slug": "como-ter-mais-disposicao-pela-manha",
+      "category": "saude",
+      "data": {
+        "intention": "Ajustar sono, luz e rotina da noite para acordar com mais energia.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como ter mais disposição pela manhã passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como ter mais disposição pela manhã: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como ter mais disposição pela manhã"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como ter mais disposição pela manhã"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como ter mais disposição pela manhã dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🩺",
+            "name": "Ministério da Saúde",
+            "reason": "Orientações oficiais e prevenção."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Exercícios e explicações de profissionais."
+          },
+          {
+            "icon": "💬",
+            "name": "r/insomnia",
+            "reason": "Relatos e rotinas de quem tem o mesmo problema."
+          }
+        ],
+        "steps": [
+          "Durma e acorde em horários regulares.",
+          "Receba luz natural logo depois de acordar.",
+          "Evite sonecas longas e cafeína tardia."
+        ],
+        "mistakes": [
+          "Usar o celular na cama por muito tempo.",
+          "Tomar café em jejum e pular o café da manhã."
+        ]
+      }
+    },
+    {
+      "query": "como tirar mancha de vinho do tecido",
+      "slug": "como-tirar-mancha-de-vinho-do-tecido",
+      "category": "casa",
+      "data": {
+        "intention": "Remover a mancha de vinho enquanto ela ainda está fresca, sem espalhar o pigmento.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar mancha de vinho do tecido passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar mancha de vinho do tecido: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar mancha de vinho do tecido"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar mancha de vinho do tecido"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar mancha de vinho do tecido dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Absorva o excesso com pano branco sem esfregar.",
+          "Aplique água fria e detergente neutro.",
+          "Lave após testar em uma parte escondida."
+        ],
+        "mistakes": [
+          "Usar água quente.",
+          "Esfregar a mancha com força."
+        ]
+      }
+    },
+    {
+      "query": "como limpar micro-ondas",
+      "slug": "como-limpar-micro-ondas",
+      "category": "casa",
+      "data": {
+        "intention": "Soltar a sujeira com vapor e limpar sem usar produtos abrasivos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como limpar micro-ondas passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como limpar micro-ondas: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como limpar micro-ondas"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como limpar micro-ondas"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como limpar micro-ondas dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Coloque água e vinagre em um recipiente e aqueça por cinco minutos.",
+          "Deixe o vapor agir antes de abrir.",
+          "Passe um pano úmido e seque."
+        ],
+        "mistakes": [
+          "Usar produto abrasivo ou palha de aço.",
+          "Molhar partes elétricas."
+        ]
+      }
+    },
+    {
+      "query": "como desentupir pia",
+      "slug": "como-desentupir-pia",
+      "category": "casa",
+      "data": {
+        "intention": "Remover o entupimento com pressão e métodos simples, sem danificar o encanamento.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como desentupir pia passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como desentupir pia: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como desentupir pia"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como desentupir pia"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como desentupir pia dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Retire restos visíveis com luvas.",
+          "Use água quente com detergente para dissolver gordura.",
+          "Use bomba de ar ou bicarbonato com vinagre."
+        ],
+        "mistakes": [
+          "Jogar água fervente em cano de PVC.",
+          "Misturar água sanitária com outros produtos."
+        ]
+      }
+    },
+    {
+      "query": "como acabar com baratas",
+      "slug": "como-acabar-com-baratas",
+      "category": "casa",
+      "data": {
+        "intention": "Eliminar comida, abrigo e pontos de entrada para reduzir a infestação.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como acabar com baratas passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como acabar com baratas: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como acabar com baratas"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como acabar com baratas"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como acabar com baratas dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Limpe gordura, restos e lixo acumulado.",
+          "Vede frestas e corrija vazamentos.",
+          "Use iscas em pontos escuros e repita conforme o fabricante."
+        ],
+        "mistakes": [
+          "Usar só inseticida sem limpar o ambiente.",
+          "Acumular caixas e sacolas."
+        ]
+      }
+    },
+    {
+      "query": "como tirar cheiro de cachorro da casa",
+      "slug": "como-tirar-cheiro-de-cachorro-da-casa",
+      "category": "casa",
+      "data": {
+        "intention": "Neutralizar odores em tecidos e superfícies em vez de apenas perfumar o ambiente.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar cheiro de cachorro da casa passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar cheiro de cachorro da casa: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar cheiro de cachorro da casa"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar cheiro de cachorro da casa"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar cheiro de cachorro da casa dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Lave a cama e os brinquedos do pet.",
+          "Aspire tapetes e estofados.",
+          "Use bicarbonato, deixe agir e ventile."
+        ],
+        "mistakes": [
+          "Passar perfume por cima do cheiro.",
+          "Guardar tecidos úmidos."
+        ]
+      }
+    },
+    {
+      "query": "como limpar chuveiro entupido",
+      "slug": "como-limpar-chuveiro-entupido",
+      "category": "casa",
+      "data": {
+        "intention": "Descalcificar o chuveiro e desobstruir os furos sem danificar o acabamento.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como limpar chuveiro entupido passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como limpar chuveiro entupido: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como limpar chuveiro entupido"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como limpar chuveiro entupido"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como limpar chuveiro entupido dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Desrosqueie o chuveiro ou use um saco com vinagre.",
+          "Deixe agir por 30 minutos.",
+          "Escove os furos e enxágue."
+        ],
+        "mistakes": [
+          "Usar objeto pontiagudo nos furos.",
+          "Forçar a rosca até quebrar."
+        ]
+      }
+    },
+    {
+      "query": "como organizar o armário",
+      "slug": "como-organizar-o-armario",
+      "category": "casa",
+      "data": {
+        "intention": "Organizar por uso e categoria para reduzir bagunça e facilitar a rotina.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como organizar o armário passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como organizar o armário: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como organizar o armário"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como organizar o armário"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como organizar o armário dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Esvazie e separe o que não usa.",
+          "Agrupe por categoria e frequência de uso.",
+          "Use caixas, prateleiras e etiquetas."
+        ],
+        "mistakes": [
+          "Comprar organizadores antes de descartar.",
+          "Guardar tudo sem critério."
+        ]
+      }
+    },
+    {
+      "query": "como tirar mofo da parede",
+      "slug": "como-tirar-mofo-da-parede",
+      "category": "casa",
+      "data": {
+        "intention": "Remover o mofo com segurança e corrigir a umidade que faz ele voltar.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar mofo da parede passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar mofo da parede: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar mofo da parede"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar mofo da parede"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar mofo da parede dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Ventile o ambiente e use proteção.",
+          "Limpe com produto adequado para a superfície.",
+          "Corrija infiltração e melhore a ventilação."
+        ],
+        "mistakes": [
+          "Pintar por cima sem tratar.",
+          "Misturar água sanitária com outros produtos."
+        ]
+      }
+    },
+    {
+      "query": "como limpar ventilador",
+      "slug": "como-limpar-ventilador",
+      "category": "casa",
+      "data": {
+        "intention": "Limpar grades e hélices com segurança sem molhar o motor.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como limpar ventilador passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como limpar ventilador: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como limpar ventilador"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como limpar ventilador"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como limpar ventilador dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Desligue e desmonte as partes removíveis.",
+          "Lave grades e hélices com sabão neutro.",
+          "Seque bem antes de montar e ligar."
+        ],
+        "mistakes": [
+          "Molhar o motor.",
+          "Ligar o aparelho ainda úmido."
+        ]
+      }
+    },
+    {
+      "query": "como tirar mancha de suor da roupa",
+      "slug": "como-tirar-mancha-de-suor-da-roupa",
+      "category": "casa",
+      "data": {
+        "intention": "Tratar a mancha de suor antes de lavar e evitar calor que fixa o odor.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar mancha de suor da roupa passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar mancha de suor da roupa: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar mancha de suor da roupa"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar mancha de suor da roupa"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar mancha de suor da roupa dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Faça uma pasta de bicarbonato com água.",
+          "Aplique, deixe agir e escove suavemente.",
+          "Lave com água fria e seque ao ar."
+        ],
+        "mistakes": [
+          "Passar ferro na mancha.",
+          "Usar água sanitária em tecido colorido."
+        ]
+      }
+    },
+    {
+      "query": "como lavar tênis branco",
+      "slug": "como-lavar-tenis-branco",
+      "category": "casa",
+      "data": {
+        "intention": "Lavar o tênis branco sem amarelar, secando corretamente.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como lavar tênis branco passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como lavar tênis branco: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como lavar tênis branco"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como lavar tênis branco"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como lavar tênis branco dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Remova cadarços e sola.",
+          "Escove com sabão neutro e enxágue.",
+          "Seque na sombra com papel dentro."
+        ],
+        "mistakes": [
+          "Deixar no sol direto.",
+          "Usar máquina em ciclo forte."
+        ]
+      }
+    },
+    {
+      "query": "como eliminar mosquitos em casa",
+      "slug": "como-eliminar-mosquitos-em-casa",
+      "category": "casa",
+      "data": {
+        "intention": "Eliminar água parada e criar barreiras para reduzir mosquitos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como eliminar mosquitos em casa passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como eliminar mosquitos em casa: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como eliminar mosquitos em casa"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como eliminar mosquitos em casa"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como eliminar mosquitos em casa dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🧽",
+            "name": "r/CleaningTips",
+            "reason": "Soluções testadas para manchas e limpeza."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Passo a passo em vídeo."
+          },
+          {
+            "icon": "🏠",
+            "name": "eHow",
+            "reason": "Guias rápidos de manutenção."
+          }
+        ],
+        "steps": [
+          "Vire recipientes e limpe calhas.",
+          "Troque a água de plantas e bebedouros.",
+          "Use telas e repelente quando necessário."
+        ],
+        "mistakes": [
+          "Usar só repelente sem eliminar criadouros.",
+          "Deixar pratos com água acumulada."
+        ]
+      }
+    },
+    {
+      "query": "como cuidar de samambaia",
+      "slug": "como-cuidar-de-samambaia",
+      "category": "plantas",
+      "data": {
+        "intention": "Manter umidade e luz indireta para a samambaia sem encharcar o substrato.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como cuidar de samambaia passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como cuidar de samambaia: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como cuidar de samambaia"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como cuidar de samambaia"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como cuidar de samambaia dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Deixe em luz filtrada, longe do sol forte.",
+          "Regue quando a superfície do substrato secar.",
+          "Borrife e mantenha boa ventilação."
+        ],
+        "mistakes": [
+          "Deixar no sol direto.",
+          "Manter prato com água acumulada."
+        ]
+      }
+    },
+    {
+      "query": "como cuidar de zamioculca",
+      "slug": "como-cuidar-de-zamioculca",
+      "category": "plantas",
+      "data": {
+        "intention": "Regar pouco e garantir drenagem para evitar apodrecimento da zamioculca.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como cuidar de zamioculca passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como cuidar de zamioculca: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como cuidar de zamioculca"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como cuidar de zamioculca"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como cuidar de zamioculca dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Regue apenas quando o substrato estiver seco.",
+          "Mantenha em luz indireta.",
+          "Use vaso com furos e substrato drenante."
+        ],
+        "mistakes": [
+          "Regar em excesso.",
+          "Expor ao sol forte."
+        ]
+      }
+    },
+    {
+      "query": "como recuperar planta murcha",
+      "slug": "como-recuperar-planta-murcha",
+      "category": "plantas",
+      "data": {
+        "intention": "Descobrir se a murcha é falta ou excesso de água antes de agir.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como recuperar planta murcha passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como recuperar planta murcha: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como recuperar planta murcha"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como recuperar planta murcha"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como recuperar planta murcha dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Cheque a umidade do substrato.",
+          "Ajuste a rega conforme o diagnóstico.",
+          "Corte partes mortas e observe a recuperação."
+        ],
+        "mistakes": [
+          "Regar mais sem checar o solo.",
+          "Transplantar uma planta já estressada."
+        ]
+      }
+    },
+    {
+      "query": "como adubar plantas de apartamento",
+      "slug": "como-adubar-plantas-de-apartamento",
+      "category": "plantas",
+      "data": {
+        "intention": "Adubar com doses menores e solo úmido para não queimar as raízes.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como adubar plantas de apartamento passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como adubar plantas de apartamento: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como adubar plantas de apartamento"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como adubar plantas de apartamento"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como adubar plantas de apartamento dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Use a dose mínima indicada no produto.",
+          "Aplique em solo já úmido.",
+          "Adube principalmente na primavera e no verão."
+        ],
+        "mistakes": [
+          "Colocar adubo demais.",
+          "Adubar com o solo seco."
+        ]
+      }
+    },
+    {
+      "query": "como cuidar de orquídea",
+      "slug": "como-cuidar-de-orquidea",
+      "category": "plantas",
+      "data": {
+        "intention": "Ajustar luz, rega e ventilação para a orquídea florescer sem apodrecer.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como cuidar de orquídea passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como cuidar de orquídea: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como cuidar de orquídea"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como cuidar de orquídea"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como cuidar de orquídea dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Mantenha em luz indireta e bem ventilada.",
+          "Regue quando as raízes esbranquiçarem.",
+          "Não deixe água acumulada no centro da planta."
+        ],
+        "mistakes": [
+          "Regar em excesso.",
+          "Deixar no sol direto."
+        ]
+      }
+    },
+    {
+      "query": "como eliminar fungos de planta",
+      "slug": "como-eliminar-fungos-de-planta",
+      "category": "plantas",
+      "data": {
+        "intention": "Reduzir umidade e melhorar a ventilação para controlar fungos nas plantas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como eliminar fungos de planta passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como eliminar fungos de planta: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como eliminar fungos de planta"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como eliminar fungos de planta"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como eliminar fungos de planta dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🌱",
+            "name": "r/houseplants",
+            "reason": "Diagnóstico por foto e casos reais."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Cuidados e recuperação em vídeo."
+          },
+          {
+            "icon": "🌿",
+            "name": "Gardenia",
+            "reason": "Fichas de cultivo por espécie."
+          }
+        ],
+        "steps": [
+          "Isole a planta afetada.",
+          "Remova folhas comprometidas.",
+          "Melhore a ventilação e use fungicida adequado."
+        ],
+        "mistakes": [
+          "Molhar folhas à noite.",
+          "Compartilhar ferramentas sem limpar."
+        ]
+      }
+    },
+    {
+      "query": "como liberar espaço no celular",
+      "slug": "como-liberar-espaco-no-celular",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Liberar armazenamento removendo mídia e arquivos grandes sem apagar o que importa.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como liberar espaço no celular passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como liberar espaço no celular: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como liberar espaço no celular"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como liberar espaço no celular"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como liberar espaço no celular dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Veja o uso de espaço por aplicativo.",
+          "Apague fotos, vídeos e downloads antigos.",
+          "Limpe cache e aplicativos que você não usa."
+        ],
+        "mistakes": [
+          "Apagar arquivos sem backup.",
+          "Manter apps duplicados."
+        ]
+      }
+    },
+    {
+      "query": "como deixar o celular mais rápido",
+      "slug": "como-deixar-o-celular-mais-rapido",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Reduzir carga desnecessária e manter o sistema atualizado para melhorar o desempenho.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como deixar o celular mais rápido passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como deixar o celular mais rápido: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como deixar o celular mais rápido"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como deixar o celular mais rápido"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como deixar o celular mais rápido dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Desinstale apps que você não usa.",
+          "Reduza animações e widgets pesados.",
+          "Mantenha o sistema e os apps atualizados."
+        ],
+        "mistakes": [
+          "Instalar otimizadores milagrosos.",
+          "Fazer root sem necessidade."
+        ]
+      }
+    },
+    {
+      "query": "como proteger o celular de vírus",
+      "slug": "como-proteger-o-celular-de-virus",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Reduzir riscos instalando apps confiáveis e revisando permissões.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como proteger o celular de vírus passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como proteger o celular de vírus: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como proteger o celular de vírus"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como proteger o celular de vírus"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como proteger o celular de vírus dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Instale aplicativos apenas das lojas oficiais.",
+          "Revise permissões de câmera, microfone e acessibilidade.",
+          "Mantenha o sistema atualizado."
+        ],
+        "mistakes": [
+          "Baixar APK pirata.",
+          "Clicar em links desconhecidos."
+        ]
+      }
+    },
+    {
+      "query": "como escolher um celular para estudar",
+      "slug": "como-escolher-um-celular-para-estudar",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Escolher um celular com bateria, tela e armazenamento suficientes para a rotina de estudos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como escolher um celular para estudar passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como escolher um celular para estudar: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como escolher um celular para estudar"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como escolher um celular para estudar"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como escolher um celular para estudar dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Priorize bateria, tela e armazenamento.",
+          "Verifique atualizações e suporte do fabricante.",
+          "Compare o custo-benefício com suas necessidades reais."
+        ],
+        "mistakes": [
+          "Escolher só pela câmera.",
+          "Comprar modelo antigo sem atualizações."
+        ]
+      }
+    },
+    {
+      "query": "como fazer backup do celular",
+      "slug": "como-fazer-backup-do-celular",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Criar uma cópia segura de fotos e contatos e testar a restauração.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer backup do celular passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer backup do celular: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer backup do celular"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer backup do celular"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer backup do celular dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Ative o backup automático na nuvem.",
+          "Inclua fotos, contatos e aplicativos importantes.",
+          "Teste restaurar alguns arquivos."
+        ],
+        "mistakes": [
+          "Confiar em uma única cópia.",
+          "Nunca testar se o backup funciona."
+        ]
+      }
+    },
+    {
+      "query": "como usar o celular sem distração",
+      "slug": "como-usar-o-celular-sem-distracao",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Reduzir notificações e atrito para usar o celular com mais intenção.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como usar o celular sem distração passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como usar o celular sem distração: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como usar o celular sem distração"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como usar o celular sem distração"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como usar o celular sem distração dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Ative o modo não perturbe nos horários de foco.",
+          "Remova apps de distração da tela inicial.",
+          "Use timers para limitar o tempo."
+        ],
+        "mistakes": [
+          "Confiar só na força de vontade.",
+          "Deixar todas as notificações ativas."
+        ]
+      }
+    },
+    {
+      "query": "como aprender a usar o Excel",
+      "slug": "como-aprender-a-usar-o-excel",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Aprender Excel com prática guiada em fórmulas, tabelas e atalhos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como aprender a usar o Excel passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como aprender a usar o Excel: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como aprender a usar o Excel"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como aprender a usar o Excel"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como aprender a usar o Excel dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Comece com fórmulas básicas e referências.",
+          "Monte uma tabela com dados reais.",
+          "Pratique atalhos e tabela dinâmica."
+        ],
+        "mistakes": [
+          "Fazer curso avançado antes da base.",
+          "Assistir aulas sem praticar."
+        ]
+      }
+    },
+    {
+      "query": "como escolher um fone de ouvido para estudar",
+      "slug": "como-escolher-um-fone-de-ouvido-para-estudar",
+      "category": "tecnologia",
+      "data": {
+        "intention": "Escolher um fone confortável, com bom isolamento e microfone se for usar em aulas.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como escolher um fone de ouvido para estudar passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como escolher um fone de ouvido para estudar: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como escolher um fone de ouvido para estudar"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como escolher um fone de ouvido para estudar"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como escolher um fone de ouvido para estudar dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "📱",
+            "name": "r/androids",
+            "reason": "Problemas e ajustes reais de celular."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais passo a passo."
+          },
+          {
+            "icon": "🛠️",
+            "name": "Android Central",
+            "reason": "Guias e comparações de aparelhos."
+          }
+        ],
+        "steps": [
+          "Teste o conforto por pelo menos 30 minutos.",
+          "Avalie isolamento de ruído e qualidade do som.",
+          "Verifique microfone se for usar em reuniões."
+        ],
+        "mistakes": [
+          "Escolher só pelo preço.",
+          "Comprar sem testar o microfone."
+        ]
+      }
+    },
+    {
+      "query": "como sair das dívidas",
+      "slug": "como-sair-das-dividas",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Listar dívidas, priorizar juros e negociar para recuperar o controle do orçamento.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como sair das dívidas passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como sair das dívidas: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como sair das dívidas"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como sair das dívidas"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como sair das dívidas dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Liste todas as dívidas, juros e vencimentos.",
+          "Negocie as mais caras primeiro.",
+          "Corte gastos e evite novo crédito."
+        ],
+        "mistakes": [
+          "Fazer empréstimo para pagar outra dívida.",
+          "Ignorar cobranças e perder prazos."
+        ]
+      }
+    },
+    {
+      "query": "como fazer um orçamento mensal",
+      "slug": "como-fazer-um-orcamento-mensal",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Registrar gastos e definir limites realistas para o mês.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer um orçamento mensal passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer um orçamento mensal: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer um orçamento mensal"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer um orçamento mensal"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer um orçamento mensal dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Anote todos os gastos por pelo menos 30 dias.",
+          "Classifique por categoria e identifique excessos.",
+          "Defina limites e revise no fim do mês."
+        ],
+        "mistakes": [
+          "Criar uma planilha complexa demais.",
+          "Fazer o orçamento e nunca revisar."
+        ]
+      }
+    },
+    {
+      "query": "como começar a investir com pouco dinheiro",
+      "slug": "como-comecar-a-investir-com-pouco-dinheiro",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Construir reserva e estudar opções simples antes de assumir riscos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como começar a investir com pouco dinheiro passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como começar a investir com pouco dinheiro: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como começar a investir com pouco dinheiro"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como começar a investir com pouco dinheiro"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como começar a investir com pouco dinheiro dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Monte uma reserva de emergência.",
+          "Estude produtos de baixo custo e risco.",
+          "Diversifique e evite promessas de retorno garantido."
+        ],
+        "mistakes": [
+          "Colocar tudo em um único ativo.",
+          "Acreditar em retorno garantido."
+        ]
+      }
+    },
+    {
+      "query": "como economizar no supermercado",
+      "slug": "como-economizar-no-supermercado",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Planejar compras e comparar preços para reduzir gastos sem perder qualidade.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como economizar no supermercado passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como economizar no supermercado: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como economizar no supermercado"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como economizar no supermercado"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como economizar no supermercado dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Faça uma lista antes de sair.",
+          "Compare o preço por quilo ou litro.",
+          "Evite ir ao mercado com fome."
+        ],
+        "mistakes": [
+          "Comprar por impulso em promoção.",
+          "Ir sem lista e sem meta de gasto."
+        ]
+      }
+    },
+    {
+      "query": "como ganhar uma renda extra em casa",
+      "slug": "como-ganhar-uma-renda-extra-em-casa",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Usar uma habilidade existente para oferecer um serviço pequeno e testar demanda.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como ganhar uma renda extra em casa passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como ganhar uma renda extra em casa: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como ganhar uma renda extra em casa"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como ganhar uma renda extra em casa"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como ganhar uma renda extra em casa dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Liste habilidades que você já tem.",
+          "Ofereça um serviço pequeno para conhecidos.",
+          "Ajuste preço e escopo com o feedback."
+        ],
+        "mistakes": [
+          "Acreditar em renda rápida sem trabalho.",
+          "Pagar por cursos de esquema."
+        ]
+      }
+    },
+    {
+      "query": "como organizar as contas do mês",
+      "slug": "como-organizar-as-contas-do-mes",
+      "category": "dinheiro",
+      "data": {
+        "intention": "Organizar vencimentos e automatizar o essencial para evitar atrasos.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como organizar as contas do mês passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como organizar as contas do mês: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como organizar as contas do mês"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como organizar as contas do mês"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como organizar as contas do mês dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💰",
+            "name": "r/investimentos",
+            "reason": "Discussões práticas sobre dinheiro."
+          },
+          {
+            "icon": "📊",
+            "name": "Serasa",
+            "reason": "Negociação e educação financeira."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Explicações e planilhas."
+          }
+        ],
+        "steps": [
+          "Coloque todas as contas em um calendário.",
+          "Ative débito automático quando possível.",
+          "Separe uma reserva para imprevistos."
+        ],
+        "mistakes": [
+          "Deixar para lembrar na data.",
+          "Viver sem reserva."
+        ]
+      }
+    },
+    {
+      "query": "como tirar mancha de desodorante da roupa",
+      "slug": "como-tirar-mancha-de-desodorante-da-roupa",
+      "category": "beleza",
+      "data": {
+        "intention": "Tratar a mancha de desodorante sem danificar o tecido.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar mancha de desodorante da roupa passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar mancha de desodorante da roupa: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar mancha de desodorante da roupa"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar mancha de desodorante da roupa"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar mancha de desodorante da roupa dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💇",
+            "name": "r/HaircareScience",
+            "reason": "Cuidados com cabelo baseados em evidências."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais e testes de produtos."
+          },
+          {
+            "icon": "🧴",
+            "name": "Beleza na Web",
+            "reason": "Resenhas e comparações."
+          }
+        ],
+        "steps": [
+          "Faça uma pasta de bicarbonato com água.",
+          "Aplique e deixe agir por alguns minutos.",
+          "Lave com água fria e seque ao ar."
+        ],
+        "mistakes": [
+          "Usar calor antes de remover.",
+          "Esfregar com força."
+        ]
+      }
+    },
+    {
+      "query": "como cuidar de cabelo cacheado",
+      "slug": "como-cuidar-de-cabelo-cacheado",
+      "category": "beleza",
+      "data": {
+        "intention": "Manter hidratação e definição sem excesso de calor ou produto pesado.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como cuidar de cabelo cacheado passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como cuidar de cabelo cacheado: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como cuidar de cabelo cacheado"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como cuidar de cabelo cacheado"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como cuidar de cabelo cacheado dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💇",
+            "name": "r/HaircareScience",
+            "reason": "Cuidados com cabelo baseados em evidências."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais e testes de produtos."
+          },
+          {
+            "icon": "🧴",
+            "name": "Beleza na Web",
+            "reason": "Resenhas e comparações."
+          }
+        ],
+        "steps": [
+          "Hidrate com máscara adequada ao seu cabelo.",
+          "Evite escovar seco e excesso de calor.",
+          "Faça cortes regulares para manter a forma."
+        ],
+        "mistakes": [
+          "Escovar o cabelo seco.",
+          "Usar produto pesado na raiz."
+        ]
+      }
+    },
+    {
+      "query": "como escolher um perfume que dura",
+      "slug": "como-escolher-um-perfume-que-dura",
+      "category": "beleza",
+      "data": {
+        "intention": "Escolher e aplicar perfume de forma que a fragrância permaneça mais tempo.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como escolher um perfume que dura passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como escolher um perfume que dura: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como escolher um perfume que dura"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como escolher um perfume que dura"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como escolher um perfume que dura dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💇",
+            "name": "r/HaircareScience",
+            "reason": "Cuidados com cabelo baseados em evidências."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais e testes de produtos."
+          },
+          {
+            "icon": "🧴",
+            "name": "Beleza na Web",
+            "reason": "Resenhas e comparações."
+          }
+        ],
+        "steps": [
+          "Teste na pele e espere a evolução.",
+          "Aplique em pele hidratada nos pontos de pulsação.",
+          "Não esfregue o perfume após aplicar."
+        ],
+        "mistakes": [
+          "Guardar o perfume em local quente.",
+          "Aplicar quantidade excessiva."
+        ]
+      }
+    },
+    {
+      "query": "como tirar cheiro de roupa guardada",
+      "slug": "como-tirar-cheiro-de-roupa-guardada",
+      "category": "beleza",
+      "data": {
+        "intention": "Remover o odor de armário lavando e secando a roupa corretamente.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como tirar cheiro de roupa guardada passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como tirar cheiro de roupa guardada: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como tirar cheiro de roupa guardada"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como tirar cheiro de roupa guardada"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como tirar cheiro de roupa guardada dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "💇",
+            "name": "r/HaircareScience",
+            "reason": "Cuidados com cabelo baseados em evidências."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Tutoriais e testes de produtos."
+          },
+          {
+            "icon": "🧴",
+            "name": "Beleza na Web",
+            "reason": "Resenhas e comparações."
+          }
+        ],
+        "steps": [
+          "Lave a roupa com sabão adequado.",
+          "Seque completamente antes de guardar.",
+          "Ventile o armário e use sachês."
+        ],
+        "mistakes": [
+          "Guardar roupa úmida.",
+          "Passar perfume para disfarçar."
+        ]
+      }
+    },
+    {
+      "query": "como fazer arroz soltinho",
+      "slug": "como-fazer-arroz-soltinho",
+      "category": "culinaria",
+      "data": {
+        "intention": "Cozinhar arroz soltinho controlando água, calor e o tempo de descanso.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer arroz soltinho passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer arroz soltinho: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer arroz soltinho"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer arroz soltinho"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer arroz soltinho dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🍳",
+            "name": "r/Cooking",
+            "reason": "Técnicas e soluções de cozinha."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Receitas e demonstrações."
+          },
+          {
+            "icon": "🥘",
+            "name": "Panelinha",
+            "reason": "Receitas testadas e explicadas."
+          }
+        ],
+        "steps": [
+          "Lave o arroz até a água ficar menos turva.",
+          "Refogue com alho e óleo.",
+          "Use a proporção correta de água e não mexa durante o cozimento."
+        ],
+        "mistakes": [
+          "Mexer o arroz enquanto cozinha.",
+          "Colocar água demais."
+        ]
+      }
+    },
+    {
+      "query": "como conservar alimentos na geladeira",
+      "slug": "como-conservar-alimentos-na-geladeira",
+      "category": "culinaria",
+      "data": {
+        "intention": "Guardar alimentos em recipientes adequados e com etiquetas para durar mais.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como conservar alimentos na geladeira passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como conservar alimentos na geladeira: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como conservar alimentos na geladeira"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como conservar alimentos na geladeira"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como conservar alimentos na geladeira dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🍳",
+            "name": "r/Cooking",
+            "reason": "Técnicas e soluções de cozinha."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Receitas e demonstrações."
+          },
+          {
+            "icon": "🥘",
+            "name": "Panelinha",
+            "reason": "Receitas testadas e explicadas."
+          }
+        ],
+        "steps": [
+          "Resfrie antes de guardar.",
+          "Use recipientes fechados e limpos.",
+          "Etiquete com data e organize por validade."
+        ],
+        "mistakes": [
+          "Guardar comida quente.",
+          "Misturar alimentos crus e cozidos."
+        ]
+      }
+    },
+    {
+      "query": "como fazer marmita para a semana",
+      "slug": "como-fazer-marmita-para-a-semana",
+      "category": "culinaria",
+      "data": {
+        "intention": "Planejar refeições e cozinhar em lote para facilitar a semana.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como fazer marmita para a semana passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como fazer marmita para a semana: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como fazer marmita para a semana"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como fazer marmita para a semana"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como fazer marmita para a semana dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🍳",
+            "name": "r/Cooking",
+            "reason": "Técnicas e soluções de cozinha."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Receitas e demonstrações."
+          },
+          {
+            "icon": "🥘",
+            "name": "Panelinha",
+            "reason": "Receitas testadas e explicadas."
+          }
+        ],
+        "steps": [
+          "Escolha receitas que congelam bem.",
+          "Cozinhe em lote e porcione.",
+          "Congele e etiquete as marmitas."
+        ],
+        "mistakes": [
+          "Fazer tudo igual e cansar.",
+          "Temperar só na hora de comer."
+        ]
+      }
+    },
+    {
+      "query": "como substituir ingredientes na receita",
+      "slug": "como-substituir-ingredientes-na-receita",
+      "category": "culinaria",
+      "data": {
+        "intention": "Substituir ingredientes entendendo a função de cada um na receita.",
+        "reformulations": [
+          {
+            "typeKey": "tecnica",
+            "typeLabel": "Técnica",
+            "query": "como substituir ingredientes na receita passo a passo"
+          },
+          {
+            "typeKey": "causa",
+            "typeLabel": "Causa raiz",
+            "query": "como substituir ingredientes na receita: causas e erros comuns"
+          },
+          {
+            "typeKey": "comunidade",
+            "typeLabel": "Comunidade",
+            "query": "site:reddit.com como substituir ingredientes na receita"
+          },
+          {
+            "typeKey": "video",
+            "typeLabel": "Vídeo",
+            "query": "site:youtube.com como substituir ingredientes na receita"
+          },
+          {
+            "typeKey": "especialista",
+            "typeLabel": "Especialista",
+            "query": "como substituir ingredientes na receita dicas de especialista"
+          }
+        ],
+        "whereTo": [
+          {
+            "icon": "🍳",
+            "name": "r/Cooking",
+            "reason": "Técnicas e soluções de cozinha."
+          },
+          {
+            "icon": "🎥",
+            "name": "YouTube",
+            "reason": "Receitas e demonstrações."
+          },
+          {
+            "icon": "🥘",
+            "name": "Panelinha",
+            "reason": "Receitas testadas e explicadas."
+          }
+        ],
+        "steps": [
+          "Identifique se o ingrediente dá estrutura, umidade ou sabor.",
+          "Teste em quantidade pequena.",
+          "Ajuste líquido e tempo de forno."
+        ],
+        "mistakes": [
+          "Trocar todos os ingredientes de uma vez.",
+          "Não ajustar a quantidade de líquido."
         ]
       }
     }
