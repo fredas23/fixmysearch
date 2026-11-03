@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:30:28.945Z",
+  "generatedAt": "2026-11-03T00:35:48.187Z",
   "items": [
     {
       "query": "minha planta está amarelando e caindo as folhas",
@@ -281,6 +281,62 @@
             "icon": "📊",
             "name": "OMS",
             "reason": "Recomendações de atividade física."
+          }
+        ],
+        "steps": [
+          "Defina um déficit pequeno e sustentável, sem cortar grupos inteiros de alimentos.",
+          "Aumente proteína, fibras e caminhadas; faça força em casa duas vezes por semana.",
+          "Durma o suficiente e acompanhe peso, medidas e energia a cada duas semanas."
+        ],
+        "mistakes": [
+          "Cortar comida drasticamente e compensar depois.",
+          "Usar remédios, chás ou shakes sem orientação profissional."
+        ],
+        "details": [
+          {
+            "h": "O QUE REALMENTE FUNCIONA",
+            "p": [
+              "Emagrecimento sustentável depende de déficit calórico e, principalmente, de adesão. Você não precisa de uma dieta rígida; precisa de um jeito de comer que consiga manter por meses. Refeições com proteína, fibras e volume ajudam a sentir saciedade.",
+              "Sono, estresse e passos diários influenciam fome e gasto de energia. Musculação ou exercícios de força ajudam a preservar massa muscular durante o emagrecimento. Sem força, parte do peso perdido pode ser músculo."
+            ]
+          },
+          {
+            "h": "COMO COMEÇAR SEM ACADEMIA",
+            "p": [
+              "Caminhe 20 a 30 minutos por dia, use escadas e aumente o movimento ao longo do dia. Em casa, faça agachamento, flexão apoiada, ponte de glúteo e remada com garrafa ou elástico. O importante é começar com o que você tem e progredir.",
+              "Não precisa treinar todos os dias. Duas sessões de força por semana já ajudam no início. Aumente passos aos poucos, durma melhor e evite transformar o exercício em punição por ter comido."
+            ]
+          },
+          {
+            "h": "O QUE EVITAR",
+            "p": [
+              "Desconfie de promessas de perda de peso muito rápida, detox, dietas de um alimento só e remédios sem prescrição. Eles podem causar efeito rebote, perda de massa muscular e problemas de saúde.",
+              "Se você tem obesidade, diabetes, hipertensão, histórico de transtorno alimentar ou outra condição, procure acompanhamento profissional. O objetivo não é apenas perder peso, mas melhorar saúde e manter o resultado."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Preciso contar calorias?",
+            "a": "Não é obrigatório, mas ajuda no início para entender porções e gasto. O foco deve ser adesão e qualidade da alimentação, não perfeição."
+          },
+          {
+            "q": "Quanto tempo para ver resultado?",
+            "a": "Uma perda de 0,25 a 0,75 kg por semana costuma ser sustentável. Resultados variam com ponto de partida, sono, atividade e adesão."
+          },
+          {
+            "q": "Caminhar emagrece?",
+            "a": "Caminhar aumenta o gasto de energia e ajuda, mas não compensa uma alimentação muito acima do necessário. O conjunto é o que importa."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ministério da Saúde",
+            "url": "https://www.gov.br/saude/pt-br"
+          },
+          {
+            "name": "Organização Mundial da Saúde",
+            "url": "https://www.who.int"
           }
         ]
       },
@@ -566,6 +622,66 @@
             "icon": "🩺",
             "name": "Associação Brasileira do Sono",
             "reason": "Orientações baseadas em evidências."
+          }
+        ],
+        "steps": [
+          "Mantenha um horário fixo para acordar, inclusive no fim de semana.",
+          "Reduza cafeína depois das 14h, álcool à noite e telas na hora antes de dormir.",
+          "Se não conseguir dormir em cerca de 20 minutos, saia da cama e faça algo calmo com luz baixa."
+        ],
+        "mistakes": [
+          "Ficar na cama tentando dormir por horas e olhando o relógio.",
+          "Tentar compensar a noite ruim dormindo muito no fim de semana."
+        ],
+        "details": [
+          {
+            "h": "O QUE PODE ESTAR ROUBANDO SEU SONO",
+            "p": [
+              "Cafeína, álcool, refeições pesadas, telas, estresse e ambiente inadequado são suspeitos comuns. A cafeína pode atrapalhar por várias horas, mesmo que você não sinta mais o efeito. O álcool ajuda a apagar no início, mas costuma fragmentar o sono na madrugada.",
+              "Insônia não é só “não sentir sono”. Muitas vezes a pessoa está cansada, mas a cabeça continua acelerada. Ansiedade, preocupações e horários irregulares mantêm o cérebro em estado de alerta. O objetivo não é forçar o sono, e sim criar condições para ele acontecer."
+            ]
+          },
+          {
+            "h": "ROTINA DE 30 MINUTOS PARA DESACELERAR",
+            "p": [
+              "Na hora antes de dormir, baixe a luz, evite notícias e discussões e deixe o celular fora da cama. Um banho morno, alongamento leve ou leitura em papel ajudam a sinalizar que o dia acabou. O quarto deve estar escuro, silencioso e fresco.",
+              "Use a cama para dormir e para intimidade, não para trabalhar ou assistir vídeos. Se acordar de madrugada, evite olhar as horas. Se ficar muito tempo desperto, levante, fique em luz baixa e volte quando o sono aparecer. A ideia é não transformar a cama em um lugar de frustração."
+            ]
+          },
+          {
+            "h": "QUANDO PROCURAR AJUDA",
+            "p": [
+              "Se a dificuldade para dormir acontece três ou mais noites por semana, dura meses e afeta o dia seguinte, vale procurar um profissional. A terapia cognitivo-comportamental para insônia (TCC-I) é uma das abordagens mais estudadas para insônia crônica.",
+              "Ronco intenso, pausas na respiração, sonolência perigosa ao dirigir ou cansaço extremo merecem avaliação médica. Não use remédios ou melatonina por conta própria de forma contínua; converse com um profissional para verificar se faz sentido no seu caso."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Quanto tempo leva para melhorar?",
+            "a": "Mudanças de rotina podem ajudar em duas a quatro semanas. Insônia crônica costuma precisar de acompanhamento e TCC-I, não só de força de vontade."
+          },
+          {
+            "q": "Melatonina resolve insônia?",
+            "a": "Não é uma solução universal. Pode ajudar em casos específicos, mas dose, horário e causa da insônia importam. Converse com um profissional."
+          },
+          {
+            "q": "O que fazer se acordar de madrugada?",
+            "a": "Evite olhar o relógio e manter a luz forte. Se não voltar a dormir em cerca de 20 minutos, levante e faça algo calmo com luz baixa."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ministério da Saúde",
+            "url": "https://www.gov.br/saude/pt-br"
+          },
+          {
+            "name": "Sleep Foundation",
+            "url": "https://www.sleepfoundation.org"
+          },
+          {
+            "name": "CDC — Sleep",
+            "url": "https://www.cdc.gov/sleep"
           }
         ]
       },
@@ -966,6 +1082,62 @@
             "name": "Canva",
             "reason": "Modelos editáveis."
           }
+        ],
+        "steps": [
+          "Abra a vaga e sublinhe as palavras-chave, ferramentas e requisitos que você consegue comprovar.",
+          "Monte um currículo de uma página com formação, projetos, cursos, voluntariado e habilidades.",
+          "Descreva cada experiência com ação e resultado, mesmo que seja um trabalho escolar ou freelance."
+        ],
+        "mistakes": [
+          "Enviar o mesmo currículo para todas as vagas.",
+          "Inventar experiência ou curso que você não concluiu."
+        ],
+        "details": [
+          {
+            "h": "O QUE COLOCAR QUANDO NÃO TEM EXPERIÊNCIA",
+            "p": [
+              "Comece pelo que você já tem: formação, cursos, projetos pessoais, trabalhos voluntários, atividades escolares, freelas e habilidades técnicas. O recrutador não espera um histórico longo; espera sinais de que você consegue aprender e executar.",
+              "Se nunca trabalhou com carteira assinada, use projetos práticos. Um site simples, uma planilha organizada, um trabalho de escola ou um bico de fim de semana podem mostrar iniciativa, organização e comunicação. Descreva o que você fez, quais ferramentas usou e qual foi o resultado."
+            ]
+          },
+          {
+            "h": "COMO MOSTRAR RESULTADO SEM CARGO",
+            "p": [
+              "Troque adjetivos por fatos. Em vez de escrever “sou comunicativo”, diga “apresentei trabalho para 30 pessoas” ou “atendi 20 clientes por semana”. Números pequenos também valem quando mostram consistência e responsabilidade.",
+              "Use verbos de ação: organizei, criei, atendi, corrigi, acompanhei, vendi, ensinei. Cada linha deve responder o que você fez, como fez e o que mudou. Se não houver número, descreva o processo e o aprendizado."
+            ]
+          },
+          {
+            "h": "OBJETIVO, FOTO E O QUE EVITAR",
+            "p": [
+              "O objetivo deve dizer a área ou o cargo que você busca, sem frases genéricas. “Busco primeira oportunidade em atendimento ao cliente” é melhor que “busco crescimento profissional”. Adapte uma linha por vaga.",
+              "Foto é opcional e não deve ser motivo para não enviar o currículo. Evite dados sensíveis, textos longos, letras pequenas e erros de português. Peça para alguém revisar antes de enviar e salve em PDF com um nome profissional."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Currículo sem experiência pode ter uma página?",
+            "a": "Sim. Uma página é suficiente para quem está começando. O importante é ser claro, adaptado à vaga e sem informações inventadas."
+          },
+          {
+            "q": "Preciso colocar foto?",
+            "a": "Não é obrigatório. Se colocar, use uma foto profissional e recente. Em muitos processos, o currículo sem foto é até mais comum."
+          },
+          {
+            "q": "Como preencher o objetivo?",
+            "a": "Diga a área, o cargo e o tipo de oportunidade que busca. Adapte a frase para cada vaga e evite clichês como “busco crescimento”."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ministério do Trabalho e Emprego",
+            "url": "https://www.gov.br/trabalho-e-emprego/pt-br"
+          },
+          {
+            "name": "LinkedIn — Central de Ajuda",
+            "url": "https://www.linkedin.com/help/linkedin"
+          }
         ]
       },
       "category": "carreira"
@@ -1023,6 +1195,62 @@
             "name": "Glassdoor",
             "reason": "Relatos de entrevistas."
           }
+        ],
+        "steps": [
+          "Estude a vaga, a empresa e os três pontos que você quer demonstrar.",
+          "Prepare três histórias curtas com situação, ação e resultado, mesmo que sejam de escola, projeto ou voluntariado.",
+          "Leve duas perguntas para o entrevistador e treine suas respostas em voz alta."
+        ],
+        "mistakes": [
+          "Dizer que não tem experiência e parar a resposta por aí.",
+          "Falar mal de escola, chefe ou colega anterior."
+        ],
+        "details": [
+          {
+            "h": "COMO RESPONDER ÀS PERGUNTAS CLÁSSICAS",
+            "p": [
+              "“Fale sobre você” pede uma síntese de 60 a 90 segundos: origem, formação, interesse pela vaga e um projeto ou experiência que mostra seu jeito de trabalhar. Não recite o currículo inteiro. Conecte sua história com o que a vaga precisa.",
+              "Para “por que quer trabalhar aqui?”, mostre que pesquisou a empresa e relacione com algo concreto. Para pontos fortes, use um exemplo. Para pontos fracos, escolha algo real que você está melhorando, sem transformar em elogio disfarçado."
+            ]
+          },
+          {
+            "h": "COMO MOSTRAR MATURIDADE SEM EXPERIÊNCIA",
+            "p": [
+              "Projetos escolares, trabalhos voluntários, cursos, freelas e atividades esportivas mostram responsabilidade, organização e trabalho em equipe. O recrutador sabe que você está começando; ele quer ver como você aprende e lida com desafios.",
+              "Use o formato situação-ação-resultado. “No trabalho de escola, o grupo estava atrasado; eu dividi as tarefas e criamos um cronograma; entregamos no prazo.” Isso vale mais que dizer “sou proativo” sem prova."
+            ]
+          },
+          {
+            "h": "PERGUNTAS PARA FAZER E O QUE EVITAR",
+            "p": [
+              "Pergunte como funciona o treinamento, quais são as prioridades nos primeiros 90 dias e como o desempenho é avaliado. Isso mostra interesse e ajuda você a decidir se a vaga faz sentido.",
+              "Evite perguntar salário e benefícios na primeira etapa se não for o momento. Evite também chegar sem pesquisar, atrasar, usar gírias demais ou mentir. Se não souber uma resposta, diga que não sabe e explique como buscaria aprender."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "E se perguntarem sobre experiência?",
+            "a": "Seja honesto e traga projetos, cursos, voluntariado e situações em que você aprendeu rápido. Não invente experiência."
+          },
+          {
+            "q": "Posso falar de projetos escolares?",
+            "a": "Sim. Eles mostram organização, trabalho em equipe e comunicação. Descreva o desafio, o que você fez e o resultado."
+          },
+          {
+            "q": "Como se vestir para a entrevista?",
+            "a": "Pesquise a cultura da empresa e vista algo limpo, confortável e um pouco mais formal que o dia a dia. Na dúvida, prefira discrição."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ministério do Trabalho e Emprego",
+            "url": "https://www.gov.br/trabalho-e-emprego/pt-br"
+          },
+          {
+            "name": "LinkedIn — Central de Ajuda",
+            "url": "https://www.linkedin.com/help/linkedin"
+          }
         ]
       },
       "category": "carreira"
@@ -1079,6 +1307,62 @@
             "icon": "🎧",
             "name": "BBC Learning English",
             "reason": "Conteúdo gratuito por nível."
+          }
+        ],
+        "steps": [
+          "Separe 30 minutos por dia e escolha um tema que você gosta para consumir em inglês.",
+          "Divida o tempo entre ouvir/ler, anotar vocabulário útil e falar ou escrever.",
+          "Grave um áudio de um minuto por semana e compare com o anterior para medir progresso."
+        ],
+        "mistakes": [
+          "Estudar só gramática e nunca ouvir ou falar.",
+          "Esperar se sentir pronto para começar a falar."
+        ],
+        "details": [
+          {
+            "h": "MÉTODO MÍNIMO QUE FUNCIONA",
+            "p": [
+              "Aprender sozinho funciona com input compreensível, vocabulário útil e prática de saída. Ouça e leia coisas um pouco acima do seu nível, mas que você consiga entender pelo contexto. Repetição espaçada e uso real valem mais que decorar listas.",
+              "Escolha um assunto que você já gosta em português e consuma em inglês: jogos, culinária, tecnologia, esportes. O interesse sustenta a constância, que é o fator mais importante."
+            ]
+          },
+          {
+            "h": "ROTINA DE 30 MINUTOS",
+            "p": [
+              "Use 15 minutos para ouvir ou ler com legenda em inglês, 10 para anotar e revisar palavras em frases e 5 para falar ou escrever sobre o que consumiu. Se tiver mais tempo, aumente o input, não a quantidade de regras.",
+              "Não traduza cada palavra. Anote expressões que se repetem e tente usá-las no dia seguinte. Grave sua voz falando um minuto sobre o tema; isso mostra pronúncia, fluidez e lacunas de vocabulário."
+            ]
+          },
+          {
+            "h": "COMO MEDIR PROGRESSO",
+            "p": [
+              "Compare áudios de um mês atrás, veja se você entende vídeos que antes pareciam rápidos e tente escrever um parágrafo sem consultar tudo. Progresso em idioma é irregular; algumas semanas parecem paradas.",
+              "Defina metas por habilidade: entender um vídeo de 10 minutos, escrever um e-mail, falar dois minutos sem travar. Se possível, converse com alguém uma vez por semana para ganhar segurança."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Dá para aprender inglês sozinho?",
+            "a": "Sim, com método, material adequado e constância. Um professor ou parceiro de conversa acelera a correção, mas não é obrigatório para começar."
+          },
+          {
+            "q": "Preciso falar desde o início?",
+            "a": "Sim. Falar desde cedo reduz o medo e mostra o que você precisa aprender. Comece com frases curtas e gravações."
+          },
+          {
+            "q": "Quanto tempo leva?",
+            "a": "Com 30 minutos diários e prática consistente, muita gente chega a um nível intermediário em 6 a 12 meses. Depende do ponto de partida e do método."
+          }
+        ],
+        "sources": [
+          {
+            "name": "British Council",
+            "url": "https://www.britishcouncil.org"
+          },
+          {
+            "name": "Cambridge English",
+            "url": "https://www.cambridgeenglish.org"
           }
         ]
       },
@@ -1593,6 +1877,62 @@
             "name": "Descomplica",
             "reason": "Revisão e simulados."
           }
+        ],
+        "steps": [
+          "Baixe a matriz de referência, provas anteriores e temas de redação recentes.",
+          "Priorize redação, interpretação de texto, matemática básica e os conteúdos que mais aparecem.",
+          "Faça um simulado por semana, corrija os erros e reescreva a redação com base no feedback."
+        ],
+        "mistakes": [
+          "Tentar ver todo o conteúdo do ensino médio em poucas semanas.",
+          "Assistir aulas sem resolver questões e sem treinar redação."
+        ],
+        "details": [
+          {
+            "h": "O QUE PRIORIZAR EM POUCO TEMPO",
+            "p": [
+              "Com pouco tempo, priorize o que dá mais retorno: redação, leitura e interpretação, matemática básica e os temas recorrentes. A redação sozinha tem peso alto e pode ser treinada com estrutura e repertório, mesmo em poucas semanas.",
+              "Use os pesos do seu curso e da universidade que você quer. Se você precisa de uma nota específica, foque nas áreas que mais pesam. Não tente zerar todas as lacunas; tente ganhar pontos onde eles mudam o resultado."
+            ]
+          },
+          {
+            "h": "PLANO DE 30 DIAS",
+            "p": [
+              "Na primeira semana, faça um diagnóstico com uma prova antiga e uma redação. Nas duas semanas seguintes, estude os conteúdos que mais erram e faça questões todos os dias. Na última semana, simule o horário da prova e revise os erros.",
+              "Escreva duas redações por semana e peça correção. Se não tiver corretor, use as competências do Inep para revisar: domínio da norma, compreensão do tema, argumentação, coesão e proposta de intervenção. Reescrever vale mais que escrever uma redação nova a cada dia."
+            ]
+          },
+          {
+            "h": "O QUE CORTAR",
+            "p": [
+              "Corte conteúdos raros, resumos infinitos e a tentação de assistir a tudo. Troque videoaula passiva por questões e revisão ativa. Redes sociais e notificações também precisam de limites durante o período de estudo.",
+              "Não sacrifique sono e alimentação para estudar mais. Cansaço reduz concentração e aumenta erros. Um plano de 30 dias funciona melhor com blocos curtos e constantes do que com maratonas de última hora."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Dá para estudar para o Enem em 30 dias?",
+            "a": "Dá para revisar, treinar redação e ganhar pontos, mas não para aprender todo o conteúdo do ensino médio. Priorize o que mais pesa para o seu curso."
+          },
+          {
+            "q": "Quantas redações por semana?",
+            "a": "Duas é um bom número para quem tem pouco tempo. O ideal é corrigir, entender os erros e reescrever pelo menos uma delas."
+          },
+          {
+            "q": "Como usar provas antigas?",
+            "a": "Faça cronometrado, corrija com calma e refaça as questões erradas. A prova antiga mostra o estilo da banca e os temas que se repetem."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inep — Enem",
+            "url": "https://www.gov.br/inep/pt-br"
+          },
+          {
+            "name": "Ministério da Educação",
+            "url": "https://www.gov.br/mec/pt-br"
+          }
         ]
       },
       "category": "estudos"
@@ -1709,13 +2049,56 @@
           }
         ],
         "steps": [
-          "Use um título com cargo, especialidade e resultado.",
-          "Escreva um resumo com entregas concretas, não só tarefas.",
-          "Publique com constância e peça recomendações."
+          "Troque o título genérico por cargo, especialidade e valor que você entrega.",
+          "Escreva um resumo com resultados concretos e palavras-chave da área.",
+          "Comente conteúdos da área e publique com constância, sem só pedir emprego."
         ],
         "mistakes": [
-          "Só listar atividades sem resultados.",
-          "Deixar o perfil sem foto, contato ou palavras-chave da área."
+          "Deixar o perfil sem palavras-chave que os recrutadores usam.",
+          "Só aparecer para pedir indicação ou vaga."
+        ],
+        "details": [
+          {
+            "h": "TÍTULO E RESUMO",
+            "p": [
+              "O título deve dizer o que você faz e para quem. “Analista de dados | SQL e Power BI” é mais claro que “em busca de novas oportunidades”. Use palavras que aparecem nas vagas que você quer, sem encher de termos aleatórios.",
+              "No resumo, escreva três blocos curtos: quem você é, resultados ou projetos relevantes e o que busca. Fale de entregas, não só de tarefas. Se está começando, use projetos, cursos e trabalhos voluntários como prova."
+            ]
+          },
+          {
+            "h": "EXPERIÊNCIA E PALAVRAS-CHAVE",
+            "p": [
+              "Descreva cada experiência com verbos de ação, ferramentas e resultado. “Automatizei relatório que levava 2 horas e passou a levar 10 minutos” mostra mais que “responsável por relatórios”. Inclua palavras-chave da vaga de forma natural.",
+              "Preencha habilidades, projetos, certificações e formação. Peça recomendações a professores, colegas e clientes. Um perfil completo e específico aparece melhor nas buscas internas do LinkedIn."
+            ]
+          },
+          {
+            "h": "COMO APARECER SEM SPAM",
+            "p": [
+              "Comente com contribuições reais em publicações da sua área e publique uma ou duas vezes por semana sobre o que você está aprendendo. Conteúdo útil atrai contatos melhores que mensagens em massa pedindo vaga.",
+              "Ao mandar mensagem, diga por que está falando com aquela pessoa e o que você tem a oferecer. Personalize. Networking é relação de longo prazo, não uma lista de pedidos."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Preciso ter foto no LinkedIn?",
+            "a": "Ajuda a passar credibilidade. Use uma foto nítida, profissional e recente, com fundo simples. Não é obrigatório, mas faz diferença."
+          },
+          {
+            "q": "Com que frequência devo postar?",
+            "a": "Uma ou duas vezes por semana já é suficiente para começar. Mais importante que volume é consistência e utilidade."
+          },
+          {
+            "q": "LinkedIn funciona para quem está começando?",
+            "a": "Sim. Use projetos, cursos e trabalhos voluntários como experiência. Mostre o que você sabe fazer, não só o que ainda não tem."
+          }
+        ],
+        "sources": [
+          {
+            "name": "LinkedIn — Central de Ajuda",
+            "url": "https://www.linkedin.com/help/linkedin"
+          }
         ]
       }
     },
@@ -2502,13 +2885,56 @@
           }
         ],
         "steps": [
-          "Leia o edital e mapeie disciplinas e pesos.",
-          "Resolva provas anteriores da mesma banca.",
-          "Mantenha revisão espaçada e simulados."
+          "Leia o edital e monte um mapa de disciplinas, pesos, vagas e datas.",
+          "Estude por questões e revisão espaçada, começando pelas matérias que mais caem.",
+          "Faça simulados cronometrados e mantenha uma rotina sustentável até a prova."
         ],
         "mistakes": [
-          "Começar a estudar sem ler o edital.",
+          "Começar a estudar sem ler o edital e sem conhecer a banca.",
           "Trocar de material e de método toda semana."
+        ],
+        "details": [
+          {
+            "h": "ANTES DE ESTUDAR",
+            "p": [
+              "Leia o edital inteiro e identifique disciplinas, pesos, número de vagas, local, fases e critérios de aprovação. Conheça a banca e baixe provas anteriores. O edital é o contrato do concurso; estudar sem ele é apostar no escuro.",
+              "Monte um mapa com o que mais cai e o que você já domina. Se o tempo é curto, priorize as matérias de maior peso e as que têm mais questões. Não trate todas as disciplinas como iguais."
+            ]
+          },
+          {
+            "h": "MÉTODO DE ESTUDO",
+            "p": [
+              "Use estudo ativo: leia, feche o material e tente explicar ou responder questões. Resolva provas da banca desde o início. Revise os erros em intervalos de 1, 7 e 30 dias. Simulados cronometrados treinam resistência e gestão de tempo.",
+              "Um ciclo de estudos com blocos de 50 a 90 minutos funciona melhor que maratonas. Inclua revisão e questões na rotina; assistir aula sem praticar dá sensação de progresso, mas não consolida."
+            ]
+          },
+          {
+            "h": "ROTINA E LONGO PRAZO",
+            "p": [
+              "Concurso é prova de resistência. Durma, alimente-se e faça pausas. Um plano que você consegue manter por meses vale mais que um cronograma impossível de duas semanas. Ajuste o ciclo conforme seus erros e seu cansaço.",
+              "Não compare seu ritmo com o de quem estuda há mais tempo. Acompanhe suas próprias métricas: questões certas, tópicos revisados e simulados. Consistência e correção de erros vencem volume sem direção."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Quanto tempo leva para passar em concurso?",
+            "a": "Depende do cargo, da concorrência, da sua base e do tempo diário. Alguns levam meses; outros, anos. O importante é estudar com método e constância."
+          },
+          {
+            "q": "Preciso fazer cursinho?",
+            "a": "Não é obrigatório. Um bom material, provas anteriores e disciplina podem bastar. O cursinho ajuda a organizar o conteúdo e o ritmo."
+          },
+          {
+            "q": "Como revisar o conteúdo?",
+            "a": "Use questões e recuperação ativa. Revise os erros em 1, 7 e 30 dias e refaça provas anteriores. Reler passivamente rende menos."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Gov.br",
+            "url": "https://www.gov.br"
+          }
         ]
       }
     },
@@ -2990,13 +3416,64 @@
           }
         ],
         "steps": [
-          "Fixe um horário para acordar, inclusive no fim de semana.",
-          "Reduza telas e luz forte na hora antes de dormir.",
-          "Mantenha o quarto escuro, silencioso e fresco."
+          "Fixe um horário regular para acordar e tente manter até nos fins de semana.",
+          "Deixe o quarto escuro, silencioso e fresco, e reduza telas antes de dormir.",
+          "Corte cafeína no fim do dia e evite álcool como estratégia para pegar no sono."
         ],
         "mistakes": [
-          "Tomar cafeína no fim da tarde.",
-          "Tentar compensar a semana dormindo demais no sábado."
+          "Usar o celular na cama por muito tempo.",
+          "Achar que dormir pouco durante a semana se resolve dormindo demais no sábado."
+        ],
+        "details": [
+          {
+            "h": "HIGIENE DO SONO",
+            "p": [
+              "Horário regular, luz natural pela manhã, cafeína moderada e menos álcool à noite são a base. Exercício ajuda, mas treinos muito intensos perto de dormir podem atrapalhar algumas pessoas. Refeições pesadas tarde também pioram a qualidade do sono.",
+              "O sono não se recupera completamente no fim de semana. Dormir até tarde no sábado pode atrasar o relógio biológico e dificultar a segunda-feira. Consistência vale mais que uma noite perfeita."
+            ]
+          },
+          {
+            "h": "AMBIENTE E RITUAL",
+            "p": [
+              "O quarto deve ser escuro, silencioso e fresco. Cortinas blackout, tampões e temperatura agradável fazem diferença. Reserve a cama para dormir e intimidade; trabalhar ou assistir vídeos ali enfraquece a associação entre cama e sono.",
+              "Crie um ritual de 20 a 30 minutos: luz baixa, banho morno, alongamento leve, leitura em papel. Evite notícias, discussões e telas nesse período. Se acordar de madrugada, não olhe o relógio."
+            ]
+          },
+          {
+            "h": "QUANDO NÃO É SÓ ROTINA",
+            "p": [
+              "Ronco intenso, pausas na respiração, sonolência excessiva durante o dia ou dificuldade persistente por meses podem indicar apneia, insônia crônica ou outro problema. Nesses casos, rotina sozinha pode não resolver.",
+              "Procure um profissional para avaliação. A TCC-I é eficaz para insônia crônica, e o tratamento de apneia pode mudar completamente a qualidade de vida. Não use medicação sem orientação."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Quantas horas de sono preciso?",
+            "a": "A maioria dos adultos precisa de 7 a 9 horas. A necessidade varia, mas sono insuficiente de forma constante afeta humor, atenção e saúde."
+          },
+          {
+            "q": "Cochilo atrapalha?",
+            "a": "Cochilos curtos, de até 20 a 30 minutos, e antes das 15h costumam atrapalhar menos. Cochilos longos e tardios podem dificultar o sono da noite."
+          },
+          {
+            "q": "Exercício à noite faz mal?",
+            "a": "Para muitas pessoas, não. Treinos muito intensos perto de dormir podem atrapalhar quem é mais sensível. Teste e observe seu corpo."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Sleep Foundation",
+            "url": "https://www.sleepfoundation.org"
+          },
+          {
+            "name": "CDC — Sleep",
+            "url": "https://www.cdc.gov/sleep"
+          },
+          {
+            "name": "Ministério da Saúde",
+            "url": "https://www.gov.br/saude/pt-br"
+          }
         ]
       }
     },
@@ -5186,13 +5663,60 @@
           }
         ],
         "steps": [
-          "Liste todas as dívidas, juros e vencimentos.",
-          "Negocie as mais caras primeiro.",
-          "Corte gastos e evite novo crédito."
+          "Liste todas as dívidas com credor, saldo, juros, parcela e situação de atraso.",
+          "Priorize as dívidas com juros mais altos e mantenha as contas essenciais em dia.",
+          "Negocie por escrito e confirme o acordo antes de pagar qualquer entrada."
         ],
         "mistakes": [
-          "Fazer empréstimo para pagar outra dívida.",
-          "Ignorar cobranças e perder prazos."
+          "Fazer um empréstimo novo para pagar outra dívida sem reduzir o custo total.",
+          "Ignorar cobranças e deixar os juros crescerem."
+        ],
+        "details": [
+          {
+            "h": "DIAGNÓSTICO: O QUE VOCÊ DEVE E QUANTO CUSTA",
+            "p": [
+              "Comece listando cada dívida: credor, saldo, taxa de juros, parcela, vencimento e se está atrasada. Inclua cartão de crédito, cheque especial, empréstimo, financiamento e contas básicas. Sem esse mapa, é impossível saber qual dívida está consumindo mais dinheiro.",
+              "Calcule quanto do seu orçamento mensal está comprometido com parcelas e juros. Se o mínimo do cartão ou o cheque especial consome boa parte da renda, o problema é estrutural e precisa de negociação, não de mais crédito."
+            ]
+          },
+          {
+            "h": "ORDEM DE PAGAMENTO",
+            "p": [
+              "Priorize dívidas com juros mais altos, mas não deixe contas essenciais como água, luz e aluguel em atraso. Se houver risco de perder a casa ou o carro, procure orientação específica antes de negociar o restante.",
+              "Evite usar novo crédito para pagar dívida antiga, a menos que a taxa seja realmente menor e a parcela caiba no orçamento. Role a dívida sem reduzir o custo total só piora o problema."
+            ]
+          },
+          {
+            "h": "COMO NEGOCIAR E NÃO VOLTAR",
+            "p": [
+              "Procure o credor, feirões de negociação ou canais oficiais. Peça proposta por escrito com valor total, número de parcelas, vencimentos e condições. Não pague entrada antes de confirmar o desconto e o encerramento da dívida.",
+              "Depois do acordo, monte uma reserva pequena, revise o orçamento e crie regras para o cartão. Sair da dívida não é só pagar; é impedir que a mesma situação aconteça de novo."
+            ]
+          }
+        ],
+        "faq": [
+          {
+            "q": "Por onde começar a sair das dívidas?",
+            "a": "Faça a lista completa com juros e vencimentos. Depois priorize as mais caras e as que ameaçam serviços essenciais."
+          },
+          {
+            "q": "Vale pegar empréstimo para pagar dívida?",
+            "a": "Só se a taxa total for menor e a parcela couber no orçamento. Muitas vezes o empréstimo troca uma dívida por outra maior."
+          },
+          {
+            "q": "Negociar dívida baixa o score?",
+            "a": "A negociação pode melhorar o score com o tempo, mas atrasos e inadimplência pesam. O acordo precisa ser registrado corretamente."
+          }
+        ],
+        "sources": [
+          {
+            "name": "Banco Central — Cidadania Financeira",
+            "url": "https://www.bcb.gov.br/cidadaniafinanceira"
+          },
+          {
+            "name": "Serasa",
+            "url": "https://www.serasa.com.br"
+          }
         ]
       }
     },

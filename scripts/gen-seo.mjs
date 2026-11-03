@@ -118,6 +118,23 @@ function pageHtml(item, items) {
     .slice(0, 4)
     .map((other) => `<li><a href="/p/${other.slug}">${escapeHtml(other.query)}</a></li>`)
     .join('');
+  const details = (d.details || []).map((section) => `
+    <section>
+      <h2>${escapeHtml(section.h)}</h2>
+      ${section.p.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('')}
+    </section>`).join('');
+  const faq = (d.faq || []).map((entry) => `
+      <details><summary>${escapeHtml(entry.q)}</summary><p>${escapeHtml(entry.a)}</p></details>`).join('');
+  const sources = (d.sources || []).map((source) => `
+        <li><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a></li>`).join('');
+  const faqSchema = d.faq?.length ? {
+    '@type': 'FAQPage',
+    mainEntity: d.faq.map((entry) => ({
+      '@type': 'Question',
+      name: entry.q,
+      acceptedAnswer: { '@type': 'Answer', text: entry.a },
+    })),
+  } : null;
   const jsonLd = JSON.stringify({
     '@context': 'https://schema.org',
     '@graph': [
@@ -138,6 +155,7 @@ function pageHtml(item, items) {
           { '@type': 'ListItem', position: 3, name: item.query, item: url },
         ],
       },
+      ...(faqSchema ? [faqSchema] : []),
     ],
   }).replace(/</g, '\\u003c');
 
@@ -184,6 +202,11 @@ function pageHtml(item, items) {
     #report{margin-top:-20px}
     .report-note{text-align:center;color:#8FA6BC;font-size:.78rem;margin:-26px 0 0}
     .related a{display:block;padding:10px 0;border-bottom:1px solid #1E3347;text-decoration:none;font-size:.92rem}
+    section p{color:#A9BCD0;margin:0 0 12px}
+    details{background:#162232;border:1px solid #1E3347;border-radius:10px;padding:12px 14px;margin-bottom:8px}
+    summary{cursor:pointer;font-weight:700}
+    details p{margin:10px 0 0;color:#A9BCD0}
+    .sources a{font-size:.86rem}
     footer{max-width:760px;margin:0 auto;padding:24px;border-top:1px solid #1E3347;color:#8FA6BC;font-size:.8rem}
   </style>
 </head>
@@ -219,11 +242,24 @@ function pageHtml(item, items) {
       <ul>${mistakes}</ul>
     </section>` : ''}
 
+    ${details}
+
     <section>
       <h2>ONDE BUSCAR ALÉM DO GOOGLE</h2>
       <ul>${places}
       </ul>
     </section>
+
+    ${faq ? `<section class="faq">
+      <h2>PERGUNTAS FREQUENTES</h2>
+      ${faq}
+    </section>` : ''}
+
+    ${sources ? `<section class="sources">
+      <h2>FONTES</h2>
+      <ul>${sources}
+      </ul>
+    </section>` : ''}
 
     <a class="big" href="/?q=${encodeURIComponent(item.query)}">Testar essa busca grátis →</a>
     <button class="big" id="report" data-query="${q}">Quero o relatório completo — R$9,90</button>

@@ -9,6 +9,30 @@ test('seo/data.json tem 100 slugs únicos', () => {
   assert.equal(new Set(items.map((item) => item.slug)).size, 100);
 });
 
+test('páginas prioritárias têm conteúdo, FAQ e fontes', () => {
+  const items = JSON.parse(fs.readFileSync(new URL('../seo/data.json', import.meta.url))).items;
+  const priority = [
+    'como-fazer-curriculo-sem-experiencia',
+    'como-acabar-com-a-insonia-naturalmente',
+    'como-se-preparar-para-o-enem-em-pouco-tempo',
+    'como-se-sair-bem-em-entrevista-de-emprego-sem-experiencia',
+    'como-emagrecer-rapido-sem-dieta-e-sem-academia',
+    'como-aprender-ingles-sozinho-em-casa',
+    'como-sair-das-dividas',
+    'como-dormir-melhor',
+    'como-se-destacar-no-linkedin',
+    'como-passar-em-concurso-publico'
+  ];
+  for (const slug of priority) {
+    const item = items.find((entry) => entry.slug === slug);
+    assert.ok(item, `página ausente: ${slug}`);
+    assert.ok(item.data.steps.length >= 3, `passos ausentes: ${slug}`);
+    assert.ok(item.data.details.length >= 3, `seções ausentes: ${slug}`);
+    assert.ok(item.data.faq.length >= 3, `FAQ ausente: ${slug}`);
+    assert.ok(item.data.sources.length >= 1, `fontes ausentes: ${slug}`);
+  }
+});
+
 test('slugify remove acentos e pontuação', () => {
   assert.equal(slugify('Minha planta está amarelando?!'), 'minha-planta-esta-amarelando');
 });
